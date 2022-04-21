@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header, footer {
+    background-color: lightblue;
+    /* color: white; */
+}
+
+header, footer, main {
+    max-width: 36rem;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+footer {
+    margin-bottom: 2rem;
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px gray;
+    text-align: center;
+}
+
+header {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px gray;
+}
+
+#headerName {
+    text-shadow: 3px 3px 5px gray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#profilePic {
+    width: 150px;
+    height: auto;
+    box-shadow: 5px 5px 5px black;
+}
+
+#mainTitle {
+    text-shadow: 3px 3px 5px gray;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#lessonListDiv {
+    margin-left: 2rem;
+}
+
+#lessonList {
+    text-indent: .5rem;
+    letter-spacing: .5px;
+    line-height: 1.65rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#mainSubtext {
+    font-style: italic;
+    font-size: .85rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#footerText {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+}
+
+#lastUpdateText {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    color: darkgreen;
+}
+
+.hrStyle {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
