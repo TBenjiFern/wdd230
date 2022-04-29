@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD 230 Design Principles Example Page">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600&family=Merriweather:wght@300&family=Proza+Libre&display=swap" rel="stylesheet">
+    <title>Ben Fernelius - WDD 230 - Design Principles</title>
+    <link rel="stlesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+
+</head>
+<body>
+
+    <header class="bodyHeader">
+        <h1 class="headerTitle">Design Principles Document</h1>
+        <h2 class="headerName">T. Benjamin Fernelius</h2>
+    </header>
+
+    <main class="mainGrid">
+        <section class="mainSection">
+                <h2 class="sectionTitle">Repetition</h2>
+                <h3 class="companyName">YouTube</h3>
+                <a class="linkText" href="https://youtube.com">youtube.com</a>
+                <figure class="imageWrap">
+                    <img src="images/youtube.jpg" alt="YouTube Homepage" width="200" height="auto">
+                </figure>
+                <p class="sectionPara">
+                    The YouTube homepage demonstrates the principle of repetition doing two things: 
+                    First, youtube has a bottom navigation bar which never goes away unless you full-screen a video. This helps the
+                    user feel familiar with the page and brings a sense of "connection" between each page navigated to.
+                    Second, the header bar also keeps the same navigation and also includes some linking tags going from left to right.
+                    This styling makes the user first look left to right, then top-down when navigating the youtube browser. The style is simple but
+                    repeated enough that I could navigate this page without looking.
+                </p>
+
+        </section>
+
+        <section class="mainSection">
+            <h2 class="sectionTitle">Visual Hierarchy</h2>
+            <h3 class="companyName">Jisho</h3>
+                <a class="linkText" href="https://jisho.org">jisho.org</a>
+                <figure class="imageWrap">
+                    <img src="images/jisho.jpg" alt="Jisho Search Results for Light" width="200" height="auto">
+                </figure>
+                <p class="sectionPara">
+                    This Jisho search result follows the principle of visual hierarchy by properly using item size and font weight
+                    to attract the user's vision. When I enter the website, my eye first looks at the home page's icon,
+                    then its search bar, and finally search result and definitions. This balance of weight lets me know exactly how to use
+                    the page. I know I can press the homepage's icon to return to the homepage, I know that I can type what I want to look up
+                    in the search bar, and then I realize that the queried result popped up below without needing any explicit explanation.
+                    If one were to look futher down the page, multiple related search results also appear which have a larger search result followed by
+                    a bolded definitions which also help create a visual hierarchy.
+                </p>
+        </section>
+
+        <section class="mainSection">
+            <h2 class="sectionTitle">Proximity</h2>
+            <h3 class="companyName">Church of Jesus Christ</h3>
+                <a class="linkText" href="https://churchofjesuschrist.org">churchofjesuschrist.org</a>
+                <figure class="imageWrap">
+                    <img src="images/church_of_christ.jpg" alt="Church of Jesus Christ Home Page" width="200" height="auto">
+                </figure>
+                <p class="sectionPara">
+                    The Church of Jesus Christ's homepage uses proximity well in order to group the contents of the page together 
+                    into related categories. The major links/important news are all the same size and evenly spaced on the first half
+                    of the screen. As one scrolls down, they'll notice a partition and a change in font size to show a new group for links.
+                    Lastly, the very bottom of the page, the footer, is colored differently and has another group of links which are similarly formatted.
+                    This sense of proximity allows me to recognize that this webpage is divided into sections which each serve a separate purpose. It makes 
+                    navigating the page very easy and helps me remember where certain tools are when I revisit the website later.
+                </p>
+        </section>
+    </main>
+
+    <footer class="bodyFooter">
+        <p class="footerText">&copy; <span id="currentYear"></span> | T. Benjamin Fernelius | Last Updated: <span id="lastUpdate"></span></p>
+    </footer>
+    
+    <script src="js/script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,81 @@
+.bodyHeader {
+    display: block;
+    text-align: center;
+    background-color: rgb(92, 184, 214);
+    margin-top: 0px;
+}
+.headerTitle {
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.headerName {
+    margin-top: auto;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+.mainGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    justify-items: center;
+}
+.mainSection {
+    /* border-style: solid; */
+    border-radius: 15px;
+    background-color: rgb(239, 236, 236);
+    max-width: 380px;
+    border-style: solid;
+    border-width: 2px;
+}
+.sectionTitle {
+    background-color: lightblue;
+    margin-top: 0;
+    padding-left: 10px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.companyName {
+    padding-left: 10px;
+}
+.linkText {
+    padding-left: 10px;
+    font-size: 1.1em;
+}
+.imageWrap {
+    display: flex;
+    justify-content: center;
+}
+.sectionPara {
+    padding-left: 10px;
+    padding-right: 5px;
+    font-family: 'Merriweather', serif;
+    font-size: 1em;
+    line-height: 1.4em;
+}
+.bodyFooter {
+    background-color: rgb(92, 184, 214);
+    display: block;
+    text-align: center;
+}
+.footerText {
+    font-family: 'Proza Libre', sans-serif;
+    font-style: bold;
+    padding: 10px 0px;
+}
+h1 {
+    font-family: 'Proza Libre', sans-serif;
+}
+h2 {
+    font-size: 1.7em;
+    font-family: 'Cormorant Garamond', serif;
+}
+h3 {
+    font-size: 1.4em;
+    font-family: 'Cormorant Garamond', serif;
+}
+img {
+    width: 200px;
+    height: auto;
+}

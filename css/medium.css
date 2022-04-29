@@ -1,0 +1,13 @@
+@media only screen and (min-width: 32.5em){
+    #profilePic {
+        box-shadow: 5px 5px 5px black;
+    }
+    #headerName {
+        text-shadow: 3px 3px 5px gray;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    #mainTitle {
+        text-shadow: 3px 3px 5px gray;
+        font-family: 'Times New Roman', Times, serif;
+    }
+}

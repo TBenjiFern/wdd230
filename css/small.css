@@ -33,18 +33,15 @@ header {
 }
 
 #headerName {
-    text-shadow: 3px 3px 5px gray;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 #profilePic {
     width: 150px;
     height: auto;
-    box-shadow: 5px 5px 5px black;
 }
 
 #mainTitle {
-    text-shadow: 3px 3px 5px gray;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -56,7 +53,7 @@ header {
     text-indent: .5rem;
     letter-spacing: .5px;
     line-height: 1.65rem;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Radio Canada', Arial, sans-serif, ;
 }
 
 #mainSubtext {
