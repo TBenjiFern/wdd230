@@ -1,0 +1,47 @@
+@media only screen and (min-width: 730px) {
+    nav {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    nav ul li {
+        width: 800px;
+    }
+
+    nav ul {
+        display: flex
+    }
+
+    /* CSS For Homepage */
+    .homeMainFlex {
+        max-width: 700px;
+    }
+    .homeSections {
+        text-align: left;
+    }
+
+    /* CSS For Target Audience */
+
+    .audienceMainFlex {
+        max-width: 700px;
+    }
+
+    /* CSS For Color Scheme */
+    .colorMainFlex {
+        flex-direction: row;
+    }
+
+    .colorBox {
+        flex: 1 1 auto;
+    }
+
+    /* CSS For Typography */
+
+    .typoMainFlex {
+        flex-direction: row;
+    }
+    .typoBox {
+        flex: 1 1 auto;
+    }
+    
+}

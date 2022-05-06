@@ -1,0 +1,161 @@
+header {
+    background-color: #ADD8E6;
+    text-align: center;
+    margin-top: 0px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #484041;
+}
+
+h1 {
+    font-family: 'Mulish', sans-serif;
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    font-family: 'PT Serif', serif;
+    color: #484041
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    background-color: #434371;
+    margin: 0px auto;
+    box-shadow: 0 0 20px gray;
+}
+
+nav ul {
+    list-style-type: none;
+    overflow: hidden;
+    padding: 0px;
+    margin: 0;
+}
+
+nav ul li {
+    padding: 10px;
+}
+
+nav ul li a {
+    display: block;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+    color: #fff
+}
+
+nav ul li a:hover {
+    background-color: #2D2D4D;
+    color: #fff;
+}
+
+.headerTitle {
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.headerName {
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+body {
+    background-color: #fff;
+}
+
+/* CSS For Homepage */
+
+.homeMainFlex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: auto;
+    max-width: 400px;
+}
+
+.homeSections {
+    text-align: center;
+}
+
+/* CSS For Target Audience */
+
+.audienceMainFlex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: auto;
+    max-width: 400px;
+}
+
+.audienceSections {
+    margin: 10px
+}
+
+/* CSS For Color Scheme Page */
+
+.colorMainFlex {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: space-around;
+}
+
+.colorBox {
+    margin: 5px;
+    min-width: 170;
+}
+.colorBoxH2 {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.colorSpace {
+    background-color: #2D2D4D;
+    padding: 20px 0px;
+    text-align: center;
+    color: white
+}
+.colorBlue {
+    background-color: #ADD8E6;
+    padding: 20px 0px;
+    text-align: center;
+}
+.colorLiver {
+    background-color: #484041;
+    padding: 20px 0px;
+    text-align: center;
+    color: white
+}
+.colorPurple {
+    background-color: #434371;
+    padding: 20px 0px;
+    text-align: center;
+    color: white
+}
+
+
+/* CSS For Typography Page */
+
+.typoMainFlex {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: space-around;
+}
+
+.typoBox {
+    text-align: center;
+}
+
+/* CSS For Footer */
+.bodyFooter {
+    display: flex;
+    justify-content: center;
+}
