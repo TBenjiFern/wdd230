@@ -155,7 +155,7 @@ nav ul.open {display: block; order: 1;}
     display: none;
 }
 
-section p {
+.mainSections p {
     text-align: left;
     flex: 1 1 auto;
     height: 175px;

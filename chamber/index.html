@@ -18,9 +18,9 @@
 
     <header>
         <figure class="headerLogo">
-            <a href="index.html"><img class="headerLogoAct" src="images/chambersLogo.png" alt="Chambers of Moria Logo"></a>
+            <a href="#"><img class="headerLogoAct" src="images/chambersLogo.png" alt="Chambers of Moria Logo"></a>
         </figure>
-        <a href="index.html">
+        <a href="#">
             <div class="headerTitles">
                 <h1 class="headerTitle">Moria</h1>
                 <h2 class="headerSubtitle">Chambers of Commerce</h2>
@@ -47,31 +47,31 @@
     </header>
 
     <main class="mainGrid">
-        <section class="mainSections heroSection">
+        <div class="mainSections heroSection">
             <p>Hero with site name and call to action</p>
-        </section>
+        </div>
 
-        <section class="mainSections eventSection">
+        <div class="mainSections eventSection">
             <p>Event</p>
-        </section>
+        </div>
 
-        <section class="mainSections weatherSection">
+        <div class="mainSections weatherSection">
             <p>Weather</p>
-        </section>
+        </div>
 
-        <section class="mainSections newsSection">
+        <div class="mainSections newsSection">
             <p>News Release</p>
-        </section>
+        </div>
 
-        <section class="mainSections joinSection">
+        <div class="mainSections joinSection">
             <p>Join</p>
-        </section>
+        </div>
 
-        <section class="mainSections spotlightSection">
+        <div class="mainSections spotlightSection">
             <p class="spotlight spotlight1">Spotlight 1</p>
             <p class="spotlight spotlight2">Spotlight 2</p>
             <p class="spotlight spotlight3">Spotlight 3</p>
-        </section>
+        </div>
         
     </main>
 
@@ -92,7 +92,20 @@
             <hr class="hrStyle">
         </div>
         <div class="footerCred">
-            <p class="footerText"><div class="footerPiece">&copy;<span id="currentYear"></span> Chambers of Moria</div> <p class="footerDivider"> | </p><div class="footerPiece"><strong>T. Benjamin Fernelius</strong></div><p class="footerDivider"> | </p> <div class="footerPiece">WDD 230 Project</div> <p class="footerDivider"> | </p> <div class="footerPiece">Last Modification: <span id="lastUpdate"></span></div></p>
+            <p class="footerText">
+                <div class="footerPiece">&copy;
+                    <span id="currentYear"></span>Chambers of Moria
+                </div>
+                <p class="footerDivider"> | </p>
+                <div class="footerPiece">
+                    <strong>T. Benjamin Fernelius</strong>
+                </div>
+                <p class="footerDivider"> | </p>
+                <div class="footerPiece">WDD 230 Project</div>
+                <p class="footerDivider"> | </p> 
+                <div class="footerPiece">Last Modification: <span id="lastUpdate"></span></div>
+                <!-- For some reason HTML validator is saying the following </p> is wrong????? -->
+                <!-- </p> --> 
         </div>
     </footer>
 
