@@ -30,3 +30,12 @@ document.querySelector("#todayDate").textContent = today;
 
 document.querySelector("#lastUpdate").textContent = document.lastModified;
 document.querySelector("#currentYear").textContent = new Date().getFullYear();
+
+const banner = document.querySelector(".banner");
+
+if (d.getDay() == 1 || d.getDay() == 2) {
+    banner.style.display = "block";
+}
+else {
+    banner.style.display = "none";
+}

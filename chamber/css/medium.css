@@ -1,4 +1,4 @@
-@media only screen and (min-width: 820px) {
+@media only screen and (min-width: 738px) {
     
     .headerTitles {
         width: 190px;
@@ -24,6 +24,20 @@
     .heroSection {
         grid-column: 1 / 4;
         order: -6;
+        max-width: none;
+    }
+
+    .heroText {
+        font-size: 2rem;
+    }
+
+    .heroButtonWrapper {
+        position: absolute;
+        bottom: 40px;
+        right: 30px;
+        height: 60px;
+        margin: auto;
+        width: 300px;
     }
 
     .newsSection {
@@ -33,24 +47,52 @@
 
     .eventSection {
         grid-column: 1 / 3;
-        order: -2
+        order: -2;
     }
 
     .weatherSection {
         grid-column: 3 / 4;
-        order: -1
+        order: -1;
+        width: 80%;
+        height: 175px;
     }
 
     .joinSection {
         display: block;
         grid-column: 1 / 4;
         order: -3;
+        text-align: center;
+    }
+
+    .joinButtonWrapper {
+        height: 45px;
+        margin: auto;
+        padding: 10px 0px;
+    }
+
+    .joinUsButton {
+        flex: 1 1 auto;
+        width: 100%;
+        height: 100%;
+        background-color: #ADD8E6;
+        border-radius: 15px;
+        box-shadow: 0px 0px 10px black;
+    }
+
+    .joinSectionText {
+        padding: 15px 0px;
+        margin: 5px;
     }
 
     .spotlightSection {
         display: flex;
         grid-column: 1 / 4;
         order: -4;
+    }
+
+    .spotlights {
+        padding: 30px;
+        margin: 0px;
     }
 
     .spotlight1 {
@@ -86,6 +128,7 @@
         width: 100%;
         text-align: center;
         display: flex;
+        flex-direction: row;
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
@@ -114,10 +157,6 @@
         flex: 1 1 auto;
         margin-top: 20px;
         text-align: center;
-    }
-
-    .footerText {
-        flex-direction: row;
     }
 
     .footerDivider {

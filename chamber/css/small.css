@@ -138,6 +138,22 @@ nav ul.open {display: block; order: 1;}
 #collapsingBtn.open span:nth-child(1) {display: none;}
 #collapsingBtn.open span:nth-child(2) {display: block;}
 
+.banner {
+    background-color: #484041;
+    text-align: center;
+    box-shadow: 0px 0px 15px black;
+    margin: 5px;
+    width: 100%;
+    display: flex;
+    flex: 1 1 auto;
+}
+
+.bannerText {
+    color: #fff;
+    font-size: 1rem;
+    flex: 1 1 auto;
+}
+
 .mainGrid {
     display: grid;
     grid-template-columns: 1fr;
@@ -147,30 +163,237 @@ nav ul.open {display: block; order: 1;}
     grid-column: 1/2;
     margin: 10px;
     background-color: lightgray;
-    border: gray;
+    border: #2D2D4D;
     border-style: solid;
+}
+
+.mainSections {
+    text-align: left;
+    flex: 1 1 auto;
+    height: 175px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.eventSectionText, .weatherSectionText, .newsSectionText, .joinSectionText, .spotlightSectionText {
+    color: #fff;
+}
+
+.heroSection {
+    position: relative;
+    display: flex;
+    padding: 0px;
+    width: auto;
+    height: auto;
+    max-height: 427px;
+    max-width: 698px;
+}
+
+.heroImageWrapper {
+    width: 100%;
+    flex: 1 1 auto;
+}
+
+.heroImage {
+    width: 100%;
+    height: 100%;
+    flex: 1 1 auto;
+}
+
+.heroText {
+    position: absolute;
+    margin: 0px;
+    top: 20px;
+    left: 20px;
+    color: #fff;
+    text-shadow: 0 0 20px black;
+    font-size: 1.4rem;
+}
+
+.heroButtonWrapper {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    height: 60px;
+    margin: auto;
+    min-width: 200px;
+    flex: 1 1 auto;
+    max-width: 300px;
+}
+
+.heroButton {
+    flex: 1 1 auto;
+    width: 100%;
+    height: 100%;
+    background-color: #ADD8E6;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px black;
+}
+
+.eventSection h2 {
+    color: #ADD8E6;
+    margin: 5px;
+    text-shadow: 0px 0px 3px #ADD8E6;
+}
+
+.eventSection h3 {
+    margin: 10px;
+}
+
+.eventSectionText {
+    text-align: center;
+}
+
+.eventSubText {
+    color:#ADD8E6
+}
+
+.weatherSection {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 50%;
+    height: auto;
+    justify-self: center;
+}
+
+.weatherTitle {
+    grid-column: 1/3;
+    text-align: center;
+    color: #ADD8E6;
+    margin: 5px;
+    text-shadow: 0px 0px 3px #ADD8E6;
+}
+
+.weatherImageWrapper {
+    text-align: center;
+}
+
+.weatherImage {
+    grid-column: 1/2;
+    margin: 0px;
+}
+
+.tempText {
+    grid-column: 2/3;
+    margin: 0px;
+    text-align: center;
+    align-self: center;
+    font-size: 2rem;
+}
+
+.weatherText {
+    grid-column: 1/3;;
+    margin: 5px;
+    text-align: center;
+}
+
+.weatherLine {
+    grid-column: 1/3;
+    width: 100%;
+    margin: 2px;
+}
+
+.windSpeedText {
+    grid-column: 1/2;
+    margin: 3px;
+    text-align: center;
+    font-size: .8rem;
+}
+
+.windSpeedValue {
+    grid-column: 2/3;
+    margin: 0px;
+    text-align: center;
+    font-size: .8rem;
+}
+
+.windChillText {
+    grid-column: 1/2;
+    margin: 3px;
+    text-align: center;
+    font-size: .8rem;
+}
+
+.windChillValue {
+    grid-column: 2/3;
+    margin: 0px;
+    text-align: center;
+    font-size: .8rem;
 }
 
 .joinSection {
     display: none;
 }
 
-.mainSections p {
-    text-align: left;
-    flex: 1 1 auto;
-    height: 175px;
-    padding: 10px;
-    margin: 0;
+.newsTitle {
+    color: #ADD8E6;
+    margin: 5px;
+    text-shadow: 0px 0px 3px #ADD8E6;
+    text-align: center;
 }
 
-.spotlight {
-    border: gray;
+.newsText {
+    text-align: center;
+    margin: 0px;
+    padding: 25px 0px;
+}
+
+.spotlightSection {
+    padding: 10px;
+    height: auto;
+}
+
+.eventSection, .weatherSection, .newsSection, .joinSection, .spotlightSection {
+    background-color: #434371;
+}
+
+.spotlights {
+    border: #2D2D4D;
     border-style: solid;
     margin: 15px;
+    box-shadow: 0px 0px 20px #2D2D4D;
+    height: 175px;
+    flex: 1 1 auto;
+    min-width: 255px;
 }
 
 .spotlight3 {
     display: none;
+}
+
+.spotlightTitle {
+    color: #ADD8E6;
+    margin: 5px;
+    margin-bottom: 10px;
+    text-shadow: 0px 0px 3px #ADD8E6;
+    text-align: center;
+}
+
+.spotlightImageWrapper {
+    text-align: center;
+}
+
+.spotlightImage {
+    margin: 0px;
+}
+
+.spotlightSectionText {
+    margin: 0px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.spotlightLine {
+    margin: 2px;
+    margin-top: 5px;
+    flex: 1 1 auto;
+}
+
+.spotlightSubText {
+    color: #fff;
+    margin: 3px;
+    text-align: center;
+    font-size: .8rem;
 }
 
 footer {
@@ -193,7 +416,7 @@ footer {
     margin: 10px 20px 0 20px;
 }
 
-.footerText {
+.footerCred {
     margin-top: 10px;
     display: flex;
     flex-direction: column;
