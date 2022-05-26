@@ -191,11 +191,12 @@ nav ul.open {display: block; order: 1;}
 
 .heroImageWrapper {
     width: 100%;
+    overflow:hidden;
     flex: 1 1 auto;
 }
 
 .heroImage {
-    width: 100%;
+    width: 120%;
     height: 100%;
     flex: 1 1 auto;
 }

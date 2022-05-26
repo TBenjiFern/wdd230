@@ -19,7 +19,7 @@
 
     <header>
         <figure class="headerLogo">
-            <a href="#"><img class="headerLogoAct" src="images/chambersLogo_small.jpg" alt="Chambers of Moria Logo"></a>
+            <a href="#"><img class="headerLogoAct" src="images/chambersLogo_small.webp" alt="Chambers of Moria Logo"></a>
         </figure>
         <a href="#">
             <div class="headerTitles">
@@ -37,10 +37,10 @@
         </nav>
         <div class="spacer1"></div>
         <figure class="headerIcon">
-            <a href="#"><img class="linkedIcon" src="images/facebook_icon.png" alt="Facebook" width="25" height="25"></a>
+            <a href="#"><img class="linkedIcon" src="images/facebook_icon.webp" alt="Facebook" width="25" height="25"></a>
         </figure>
         <figure class="headerIcon sideIcon">
-            <a href="#"><img class="linkedIcon" src="images/linkedin_icon.png" alt="Linkedin" width="25" height="25"></a>
+            <a href="#"><img class="linkedIcon" src="images/linkedin_icon.webp" alt="Linkedin" width="25" height="25"></a>
         </figure>
         <div class="spacer2"></div>
         <button id="collapsingBtn" class="collapsingBtn"><span>&#9776;</span><span>X</span></button>
@@ -51,7 +51,10 @@
     <main class="mainGrid">
         <div class="mainSections heroSection">
             <div class="heroImageWrapper">
-                <img class="heroImage" src="images/misty_mountains.jpg" alt="The Misty Mountains">
+                <img class="heroImage" srcset="images/misty_mountains_310.webp 310w, 
+                images/misty_mountains_700.webp 700w, images/misty_mountains_840.webp 840w" 
+                sizes="55vw"
+                src="images/misty_mountains_840.webp" alt="The Misty Mountains">
             </div>
             <h1 class="heroText">Welcome to Moria</h1>
             <div class="heroButtonWrapper">
@@ -68,15 +71,15 @@
         <div class="mainSections weatherSection">
             <h2 class="weatherSectionText weatherTitle">Weather</h2>
             <div class="weatherImageWrapper">
-                <img class="weatherImage" src="images/part_cloudy.png" alt="Partly Cloudy Icon" width="75" height="69">
+                <img class="weatherImage" src="images/part_cloudy.webp" alt="Partly Cloudy Icon" width="75" height="69">
             </div>
-            <h3 class="weatherSectionText tempText">33&#176;C</h3>
+            <h3 class="weatherSectionText tempText"><span id="tempF">50</span>&#176;F</h3>
             <p class="weatherSectionText weatherText"> Partly Cloudy</p>
             <hr class="weatherLine">
             <p class="weatherSectionText windSpeedText">Wind Speed: </p>
-            <p class="weatherSectionText windSpeedValue">2.5km/h</p>
+            <p class="weatherSectionText windSpeedValue"><span id="windSpeed">3.5</span> mph</p>
             <p class="weatherSectionText windChillText">Wind Chill: </p>
-            <p class="weatherSectionText windChillValue">N/A</p>
+            <p class="weatherSectionText windChillValue"><span id="windChill">N/A</span></p>
         </div>
 
         <div class="mainSections newsSection">
@@ -99,7 +102,7 @@
             <div class="spotlights spotlight1">
                 <h2 class="spotlightSectionText spotlightTitle">Rangers' Tracking</h2>
                 <div class="spotlightImageWrapper">
-                    <img class="spotlightImage" src="images/trail.jpg" alt="Rangers Trail" width="100" height="67">
+                    <img class="spotlightImage" src="images/trail.webp" alt="Rangers Trail" width="100" height="67">
                 </div>
                 <p class="spotlightSectionText">A tracking service for Middle Earth.</p>
                 <hr class="spotlightLine">
@@ -108,7 +111,7 @@
             <div class="spotlights spotlight2">
                 <h2 class="spotlightSectionText spotlightTitle">Elvish Dining</h2>
                 <div class="spotlightImageWrapper">
-                    <img class="spotlightImage"  src="images/elvish_dining.jpg" alt="Elvish Bread in Plate" width="100" height="67">
+                    <img class="spotlightImage"  src="images/elvish_dining.webp" alt="Elvish Bread in Plate" width="100" height="67">
                 </div>
                 <p class="spotlightSectionText">"Catering to the largest of parties!"</p>
                 <hr class="spotlightLine">
@@ -117,7 +120,7 @@
             <div class="spotlights spotlight3">
                 <h2 class="spotlightSectionText spotlightTitle">Construct-a-Fort</h2>
                 <div class="spotlightImageWrapper">
-                    <img class="spotlightImage"  src="images/fort.jpg" alt="Old Fort Under Construction" width="100" height="63">
+                    <img class="spotlightImage"  src="images/fort.webp" alt="Old Fort Under Construction" width="100" height="63">
                 </div>
                 <p class="spotlightSectionText">"Moria wasn't mined in a day."</p>
                 <hr class="spotlightLine">
@@ -129,7 +132,7 @@
 
     <footer>
         <figure class="footerLogo">
-            <img src="images/chambersLogo_medium.jpg" alt="Chambers of Moria Logo" width="125" height="125">
+            <img src="images/chambersLogo_medium.webp" alt="Chambers of Moria Logo" width="125" height="125">
         </figure>
         <div class="footerInfo">
             <div class="footerAddress">
@@ -159,6 +162,7 @@
     </footer>
 
     <script src="js/script.js"></script>
+    <script src="js/windchill.js"></script>
     
 </body>
 </html>
