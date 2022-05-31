@@ -54,7 +54,7 @@
         grid-column: 3 / 4;
         order: -1;
         width: 80%;
-        height: 175px;
+        height: auto;
     }
 
     .joinSection {
@@ -93,7 +93,7 @@
     }
 
     .spotlights {
-        padding: 30px;
+        padding: 10px;
         margin: 0px;
     }
 
