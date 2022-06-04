@@ -528,6 +528,11 @@ img {
 
 .locationFloat {
     text-align: center;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .locationPicture {

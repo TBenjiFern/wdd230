@@ -150,6 +150,13 @@
 
     /* CSS for Discover Page */
 
+
+    .locationFloat {
+        flex-direction: default;
+        align-items: default;
+        display: block;
+    }
+
     .locationPicture {
         float: right;
     }
