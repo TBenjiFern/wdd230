@@ -152,8 +152,6 @@
 
 
     .locationFloat {
-        flex-direction: default;
-        align-items: default;
         display: block;
     }
 
