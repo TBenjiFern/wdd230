@@ -539,10 +539,16 @@ img {
     box-shadow: none;
     max-width: 270px;
     margin: 10px;
+    width: 100%;
+    overflow: hidden;
+    flex: 1 1 auto;
 }
 
 .locationImg {
-    max-height: 400px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
 }
 
 .economicSection {
