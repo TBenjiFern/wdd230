@@ -196,7 +196,7 @@ nav ul.open {display: block; order: 1;}
 
 .heroImageWrapper {
     width: 100%;
-    overflow:hidden;
+    overflow: hidden;
     flex: 1 1 auto;
 }
 
@@ -458,4 +458,129 @@ footer {
 .mapLink {
     text-decoration: none;
     color:#484041;
+}
+
+/* CSS for Discover Page */
+
+img[data-src] {
+    filter: blur(0.2em);
+}
+
+img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+}
+
+.discoverMainGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+    justify-items: center;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.discoverMainSection {
+    border: 2px solid #484041;
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    background-color: #434371;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.discoverSectionHeading {
+    text-align: center;
+    color: #ADD8E6;
+    margin: 5px;
+    text-shadow: 0px 0px 3px #ADD8E6;
+}
+
+.discoverSectionPicture {
+    width: auto;
+    height: auto;
+    text-align: center;
+    margin: 15px;
+}
+
+.discoverSectionImg {
+    max-width: 100%;
+    height: auto;
+}
+
+.demographicsPicture {
+    background-color: #fff;
+}
+
+.demographicsHeading {
+    text-align: center;
+    color: #ADD8E6;
+    margin: 5px;
+}
+
+.demographicsList {
+    color: #fff;
+    list-style: none;
+    text-align: center;
+    padding: 5px;
+}
+
+.locationFloat {
+    text-align: center;
+}
+
+.locationPicture {
+    box-shadow: none;
+    max-width: 270px;
+    margin: 10px;
+}
+
+.locationImg {
+    max-height: 400px;
+}
+
+.economicSection {
+    align-items: center;
+}
+
+.economicPicture {
+    max-width: 800px;
+}
+
+.qualitySection {
+    align-items: center;
+}
+.qualityPicture {
+    max-width: 600px;
+    margin: 20px;
+}
+
+.housingSection {
+    align-items: center;
+}
+
+.housingPicture {
+    max-width: 600px;
+}
+
+.healthSection {
+    align-items: center;
+}
+
+.healthPicture {
+    max-width: 640px;
+}
+
+.discoverSectionText {
+    text-align: center;
+    padding: 1rem;
+    color: #fff;
+    margin: 10px;
+}
+
+.pageVisitSection {
+    background-color: #484041;
+    max-width: 100%;
+    min-width: 80%;
 }

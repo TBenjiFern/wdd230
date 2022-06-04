@@ -148,4 +148,13 @@
         margin-right: 100px;
     }
 
+    /* CSS for Discover Page */
+
+    .locationPicture {
+        float: right;
+    }
+
+    .locationText {
+        text-align: left;
+    }
 }
