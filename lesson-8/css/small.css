@@ -1,0 +1,50 @@
+table {
+    border-collapse: collapse;
+    box-shadow: 10px 10px 10px #769BB2;
+}
+
+.tableLabel {
+    background-color: #7FB9C2;
+}
+
+.tableHead {
+    font-size: 1.75em;
+}
+
+.colLabel {
+    color: #FFFAF2;
+    font-size: 1.15em;
+}
+
+.targetMet {
+    color: #FFFAF2;
+    background-color: #628CA6;
+}
+
+.colSpanTwo {
+    text-align: center;
+}
+
+.tableFoot {
+    font-size: .75em;
+    font-weight: unset;
+}
+
+tr:nth-child(odd){
+    background-color: #E7F0ED;
+}
+
+tr:nth-child(even) {
+    background-color: #E7FFED;
+}
+
+th {
+    background-color: #628CA6;
+}
+
+th, td {
+    border: 1px solid #ABB3B7;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 7px 10px;
+    text-align: center;
+}
