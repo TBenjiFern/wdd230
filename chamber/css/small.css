@@ -595,3 +595,137 @@ img {
     max-width: 100%;
     min-width: 80%;
 }
+
+/* CSS for Join Page */
+
+.joinMainGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.joinHeading {
+    text-align: center;
+}
+
+form fieldset{
+    border: 2px solid #434371;
+    border-radius: 5px;
+}
+
+fieldset:first-child {
+    margin-bottom: 10px;
+}
+
+fieldset:nth-child(2) {
+    margin-top: 10px;
+}
+
+label, legend{
+    font-family: 'Open Sans', sans-serif;
+}
+
+legend {
+    font-weight: bold;
+    color: #484041;
+}
+
+form label,
+form input {
+    display: block;
+    width: 100%;
+}
+
+form {
+    max-width: 320px;
+    margin: 10px auto;
+}
+
+form input {
+    margin-top: 2px;
+    margin-bottom: 1em;
+    /* size for small view */
+    padding: .75rem;
+    border-radius: 10px;
+}
+
+label input {
+    display: inline;
+    width: auto;
+    margin: 0;
+}
+
+form label.required::after {
+    content: " *";
+    color: red;
+}
+
+form input:required {
+    border-left: 4px solid red;
+}
+
+form input:required:valid {
+    border-left: 4px solid green;
+}
+
+.businessDescription {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.membershipLabel {
+    margin-bottom: 5px;
+}
+
+.radioMember {
+    margin: 5px 0;
+}
+
+.required {
+    content: " *";
+}
+
+.joinSubmitBtn {
+    background-color: #ADD8E6;
+    margin-top: 16px;
+}
+
+.membershipDescription {
+    border: 2px solid #484041;
+    width: 320px;
+    margin: 10px auto;
+    padding: 1em;
+    border-radius: 10px;
+}
+
+.membershipHeader {
+    text-align: center;
+}
+
+.membershipSub {
+    text-align: center;
+}
+
+.bronze {
+    color: #cd7f32;
+}
+
+.silver {
+    color: #C0C0C0;
+}
+
+.gold {
+    color: #FFDF00;
+}
+
+.thanksHeading {
+    text-align: center;
+}
+
+.thanksSection {
+    text-align: center;
+    /* border: 2px solid #484041; */
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    margin-bottom: 100px;
+}

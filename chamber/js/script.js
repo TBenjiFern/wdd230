@@ -4,6 +4,14 @@ function toggleMenu() {
 
 }
 
+function displayDate() {
+    console.log(Date.now());
+}
+
+function sendDate() {
+    document.getElementById("submissionDate").value = Date.now();
+}
+
 const collapsingBtn = document.getElementById("collapsingBtn");
 collapsingBtn.onclick = toggleMenu;
 

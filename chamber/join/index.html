@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD 230 Chamber of Commerce Site - Join">
+    <title>Chambers of Moria Join</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@500&family=Open+Sans&family=PT+Serif&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="../images/fav.ico">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/small.css">
+    <link rel="stylesheet" href="../css/medium.css">
+    <link rel="stylesheet" href="../css/large.css">
+</head>
+
+<!-- The date can be taken when the form/page is loaded -->
+<body onload="displayDate()">
+
+    <header>
+        <figure class="headerLogo">
+            <a href="../"><img class="headerLogoAct" src="../images/chambersLogo_small.webp"
+                    alt="Chambers of Moria Logo"></a>
+        </figure>
+        <a href="../">
+            <div class="headerTitles">
+                <h2 class="headerTitle">Moria</h2>
+                <h3 class="headerSubtitle">Chambers of Commerce</h3>
+            </div>
+        </a>
+        <nav>
+            <ul id="navLink">
+                <li><a href="../discover/index.html">Discover</a></li>
+                <li><a href="#">Directory</a></li>
+                <li><a href="#">Join</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="spacer1"></div>
+        <figure class="headerIcon">
+            <a href="#"><img class="linkedIcon" src="../images/facebook_icon.webp" alt="Facebook" width="25"
+                    height="25"></a>
+        </figure>
+        <figure class="headerIcon sideIcon">
+            <a href="#"><img class="linkedIcon" src="../images/linkedin_icon.webp" alt="Linkedin" width="25"
+                    height="25"></a>
+        </figure>
+        <div class="spacer2"></div>
+        <button id="collapsingBtn" class="collapsingBtn"><span>&#9776;</span><span>X</span></button>
+        <p class="headerDate"><span id="todayDate"></span></p>
+        <div class="banner">
+            <h2 class="bannerText">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</h2>
+        </div>
+    </header>
+
+    <main class="joinMainGrid">
+        <div class="joinHeading">
+            <h1>Join the Chamber</h1>
+        </div>
+
+        <form method="get" action="thankyou.html">
+            <fieldset>
+                <legend>Applicant Information</legend>
+                
+                <label for="fname" class="required">First Name: </label>
+                <input type="text" name="fname" id="fname" required>
+
+                <label for="lname" class="required">Last Name: </label>
+                <input type="text" name="lname" id="lname" required>
+
+                <label for="businessTitle">Business Title: (At least 7 characters)</label>
+                <input type="text" name="businessTitle" id="businessTitle" pattern="[a-zA-Z0-9 -]{7,}">
+
+                <label for="userEmail" class="required">Email: (chamber@gmail.com) </label>
+                <input type="email" name="userEmail" id="userEmail" required placeholder="chamber@gmail.com">
+
+                <label for="cellPhone" class="required">Cell Number: (555-555-5555)</label>
+                <input type="tel" name="cellPhones" id="cellPhone" required placeholder="555-555-5555" pattern="\d{3}-\d{3}-\d{4}">
+            </fieldset>
+
+            <fieldset>
+                <legend>Business Information</legend>
+
+                <label for="businessName" class="required">Business Name/Title: </label>
+                <input type="text" name="businessName" id="businessName" required>
+
+                <label for="membershipLevel" class="membershipLabel">Choose a Membership: </label>
+                <label>
+                    <input type="radio" name="membershipLevel" value="npMembership" class="radioMember">
+                    NP Membership
+                </label>
+                <label>
+                    <input type="radio" name="membershipLevel" value="bronzeMembership"  class="radioMember">
+                    Bronze Membership
+                </label>
+                <label>
+                    <input type="radio" name="membershipLevel" value="silverMembership" class="radioMember">
+                    Silver Membership
+                </label>
+                <label>
+                    <input type="radio" name="membershipLevel" value="goldMembership" class="radioMember">
+                    Gold Membership
+                </label>
+
+                <label for="businessDescription" class="businessDescription">Business Description: </label>
+                <textarea name="businessDescription" id="businessDescription" cols="29" rows="5"></textarea>
+
+                <input type="hidden" name="submissionDate" id="submissionDate" hidden>
+
+                <!-- the onclick causes the hidden field to send the date upon submission -->
+                <input type="submit" value="Join The Chamber" onclick="sendDate()" class="joinSubmitBtn">
+
+            </fieldset>
+
+        </form>
+
+        <section class="membershipDescription">
+            <h2 class="membershipHeader">Membership Levels</h2>
+            <h3 class="membershipSub">NP Membership</h3>
+            <p>Free subscription: Enjoy connection to community members and free access to all of our public services.</p>
+            <h3 class="membershipSub"><span class="bronze">Bronze</span> Membership</h3>
+            <p>$25 Entry Fee: All benefits offered to NP Members with the added bonus of monthly trainings, 
+                and 10% discounts on all chambers advertising.
+            </p>
+            <h3 class="membershipSub"><span class="silver">Silver</span> Membership</h3>
+            <p>$50 Entry Fee: All benefits from previous levels with additional access to Chambers of Moria homepage spotlight
+                and added 15% discounts on all advertising and future commissions.
+            </p>
+            <h3 class="membershipSub"><span class="gold">Gold</span> Membership</h3>
+            <p>$75 Entry Fee: Access to all membership benefits. Includes access to weekly online trainings, full access to 
+                the Chamber of Moria's networking and contacts, exclusive access to coming events, and first pick
+                on all advertising opportunities with added 20% discounts.
+            </p>
+        </section>
+
+
+
+
+
+        
+    </main>
+
+    <footer>
+        <figure class="footerLogo">
+            <img src="../images/chambersLogo_medium.webp" alt="Chambers of Moria Logo" width="125" height="125">
+        </figure>
+        <div class="footerInfo">
+            <div class="footerAddress">
+                <h2 class="footerTitle">Moria Chamber of Commerce</h2>
+                <p> 100 Mellon <br> Dimrill Dale, Misty Mountains</p>
+            </div>
+            <div class="footerContact">
+                <p> chambersofmoria@moria.org <br> 062 908 20 60 <br> <a class="mapLink" href="#">&#128205;Location
+                        Map</a></p>
+            </div>
+        </div>
+        <div class="hrWrapper">
+            <hr class="hrStyle">
+        </div>
+        <div class="footerCred">
+            <div class="footerPiece">
+                <p>&copy;<span id="currentYear"></span>Chambers of Moria</p>
+            </div>
+            <div class="footerDivider">
+                <p>|</p>
+            </div>
+            <div class="footerPiece">
+                <p><strong>T. Benjamin Fernelius</strong></p>
+            </div>
+            <div class="footerDivider">
+                <p>|</p>
+            </div>
+            <div class="footerPiece">
+                <p>WDD 230 Project</p>
+            </div>
+            <div class="footerDivider">
+                <p>|</p>
+            </div>
+            <div class="footerPiece">
+                <p>Last Modification: <span id="lastUpdate"></span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+    <script src="../js/lazy.js"></script>
+
+</body>
+
+</html>
