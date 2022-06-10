@@ -706,15 +706,21 @@ form input:required:valid {
 }
 
 .bronze {
-    color: #cd7f32;
+    background-color: #cd7f32;
+    border-radius: 10px;
+    padding: 0 5px;
 }
 
 .silver {
-    color: #C0C0C0;
+    background-color: #C0C0C0;
+    border-radius: 10px;
+    padding: 0 5px;
 }
 
 .gold {
-    color: #FFDF00;
+    background-color: #FFDF00;
+    border-radius: 10px;
+    padding: 0 5px;
 }
 
 .thanksHeading {
