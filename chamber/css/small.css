@@ -752,8 +752,8 @@ form input:required:valid {
 
 .viewButtons {
     padding: 10px;
-    width: 80px;
-    height: 75px;
+    width: 60px;
+    height: 60px;
     margin: 10px;
     border: 1px solid black;
     border-radius: 10px;
