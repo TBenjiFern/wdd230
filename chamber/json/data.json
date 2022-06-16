@@ -4,7 +4,7 @@
         "address": "Amazon 410 Terry Ave N, Seattle Washington, United States",
         "phone": "206-266-1000",
         "url": "https://www.amazon.com/",
-        "imageURL": "https://images-na.ssl-images-amazon.com/images/G/01/gc/designs/livepreview/a_generic_white_10_us_noto_email_v2016_us-main._CB627448186_.png",
+        "imageURL" : "../images/amazon.webp",
         "membershipLevel": "Gold"
     },
     {
@@ -12,7 +12,7 @@
         "address": "1 Sony Dr, Park Ridge, NJ 07656, United States",
         "phone": "201-930-1000",
         "url": "https://www.sony.com/en/",
-        "imageURL": "https://www.sony.net/top/2017/img/icon/top-og.jpg",
+        "imageURL": "../images/sony.webp",
         "membershipLevel": "Gold"
     },
     {
@@ -20,7 +20,7 @@
         "address": "702 S.W. 8th St. Bentonville, Arkansas, AK 72716, US.",
         "phone": "800-925-6278",
         "url": "https://www.walmart.com/",
-        "imageURL": "https://cdn.potatopro.com/sites/default/files/styles/company_logo_/public/2021-03/walmart-1200x589.jpg?itok=hpNVZTGk",
+        "imageURL": "../images/walmart.webp",
         "membershipLevel": "Silver"
     },
     {
@@ -28,7 +28,7 @@
         "address": "1000 Nicollet Mall, Minneapolis, MN 55403, United States",
         "phone": "800-440-0680",
         "url": "https://www.target.com/",
-        "imageURL": "https://shop-eat-surf.com/wp-content/uploads/2020/11/target-logo-resized-1080x675.jpg",
+        "imageURL": "../images/target.webp",
         "membershipLevel": "Bronze"
     },
     {
@@ -36,7 +36,7 @@
         "address": "Adi-Dassler-Strasse 1, 91074 Herzogenaurach Germany",
         "phone": "+49 (0) 9132 84-0",
         "url": "https://www.adidas.com/us",
-        "imageURL": "https://cdn.britannica.com/94/193794-050-0FB7060D/Adidas-logo.jpg",
+        "imageURL": "../images/adidas.webp",
         "membershipLevel": "Gold"
     },
     {
@@ -44,7 +44,7 @@
         "address": "1455 Market St, San Francisco, CA 94103.",
         "phone": "653-158-4255",
         "url": "https://www.uber.com/",
-        "imageURL": "https://d3i4yxtzktqr9n.cloudfront.net/uber-sites/f452c7aefd72a6f52b36705c8015464e.jpg",
+        "imageURL": "../images/uber.webp",
         "membershipLevel": "Silver"
     },
     {
@@ -52,7 +52,7 @@
         "address": "P.O. Box 5855 Carol Stream, IL 60197-5855",
         "phone": "800-331-4331",
         "url": "https://www.toyota.com/",
-        "imageURL": "https://assets.website-files.com/5ee732bebd9839b494ff27cd/5ef0c9d17986ea4b48d48362_logo.jpg",
+        "imageURL": "../images/toyota.webp",
         "membershipLevel": "Silver"
     },
     {
@@ -60,7 +60,7 @@
         "address": "2111 McDonald's Dr. Oak Brook, IL 60523",
         "phone": "844-534-7211",
         "url": "https://www.mcdonalds.com/",
-        "imageURL": "https://blog.logomyway.com/wp-content/uploads/2017/01/mcdonalds-logo-1.jpg",
+        "imageURL": "../images/mcdonalds.webp",
         "membershipLevel": "Bronze"
     },
     {
@@ -68,7 +68,7 @@
         "address": "999 Lake Dr. Issaquah, WA 98027",
         "phone": "800-774-2678",
         "url": "https://www.costco.com/",
-        "imageURL": "https://www.pngitem.com/pimgs/m/220-2202623_costco-wholesale-logo-png-transparent-png.png",
+        "imageURL": "../images/costco.webp",
         "membershipLevel": "Gold"
     }
 ]

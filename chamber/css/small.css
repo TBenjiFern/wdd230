@@ -773,6 +773,11 @@ form input:required:valid {
     box-shadow: 5px 5px 10px #484041;
 }
 
+.cardSection img {
+    width: 200px;
+    height: auto;
+}
+
 .listDirectoryCards {
     display: flex;
     flex-direction: column;
