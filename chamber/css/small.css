@@ -746,10 +746,6 @@ form input:required:valid {
 
 /* CSS for Directory page */
 
-.directoryMainGrid {
-
-}
-
 .directoryHeading, .viewButtonWrapper {
     text-align: center;
 }
@@ -799,10 +795,6 @@ form input:required:valid {
     margin: 15px;
 }
 
-.cardImg {
-
-}
-
 .cardAddress {
     margin: 10px;
 }
@@ -813,8 +805,4 @@ form input:required:valid {
 
 .webLinkDiv {
     margin: 10px;
-}
-
-.cardWeb {
-
 }
