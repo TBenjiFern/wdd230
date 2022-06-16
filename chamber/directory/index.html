@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="WDD 230 Chamber of Commerce Site - Thank You">
-    <title>Chambers of Moria Thank You</title>
+    <meta name="description" content="WDD 230 Chamber of Commerce Site - Directory">
+    <title>Chambers of Moria Directory</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@500&family=Open+Sans&family=PT+Serif&display=swap"
@@ -33,9 +33,9 @@
         </a>
         <nav>
             <ul id="navLink">
-                <li><a href="../discover/index.html">Discover</a></li>
-                <li><a href="../directory/">Directory</a></li>
-                <li><a href="../join/index.html">Join</a></li>
+                <li><a href="../discover/">Discover</a></li>
+                <li><a href="#">Directory</a></li>
+                <li><a href="../join/">Join</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
         </nav>
@@ -56,18 +56,27 @@
         </div>
     </header>
 
-    <main class="discoverMainGrid">
-        <div class="thanksHeading">
-            <h1>Your Application Has Been Submitted!</h1>
+    <main class="directoryMainGrid">
+        <div class="directoryHeading">
+            <h1>Chambers of Moria Directory</h1>
         </div>
 
-        <section class="thanksSection">
-            <h2>Thank You!</h2>
-            <p>You will receive an acceptance confirmation email/phone call within 
-                the following 48 hours.</p>
-        </section>
+        <div class="viewButtonWrapper">
+            <!-- <button id="gridViewBtn" class="viewButtons" type="button">Grid View</button> -->
+            <img id="gridViewBtn" class="viewButtons" src="../images/menu.webp" alt="Convert display to grid button" width="60" height="55">
+            <img id="listViewBtn" class="viewButtons" src="../images/list.webp" alt="Convert display to list button" width="60" height="55">
+            <!-- <button id="listViewBtn" class="viewButtons" type="button">List View</button> -->
+        </div>
 
-        
+        <div id="businessDirectoryCard" class="businessDirectoryCards"></div>
+        <!-- <section>
+            <h2>Company Name<h2>
+            <img>
+            <p></p>
+            <p></p>
+            <p></p>
+        </section> -->
+
     </main>
 
     <footer>
@@ -110,9 +119,16 @@
                 <p>Last Modification: <span id="lastUpdate"></span></p>
             </div>
         </div>
+        <div class="references">
+            <a href="https://www.flaticon.com/free-icons/list" title="list icons">List icons created by Pixel perfect -
+                Flaticon</a>
+            <a href="https://www.flaticon.com/free-icons/menu" title="menu icons">Menu icons created by Pixel perfect -
+                Flaticon</a>
+        </div>
     </footer>
 
     <script src="../js/script.js"></script>
+    <script src="../js/directory.js"></script>
 
 </body>
 

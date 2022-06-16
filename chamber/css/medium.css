@@ -197,4 +197,44 @@
         box-shadow: 0 0 10px #484041;
     }
 
+
+    /* CSS for Directory page */
+
+    .viewButtons:hover {
+        box-shadow: 0 0 10px black;
+    }
+
+    .listDirectoryCards {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+        margin: 10px;
+    }
+    
+    .listCardSection {
+        background-color: #ADD8E6;
+        border-radius: 10px;
+        box-shadow: 5px 5px 10px #484041;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        padding: 10px;
+    }
+    
+    .listCardSection img {
+        display: block;
+        /* float: left; */
+        margin: 10px;
+        max-width: 200px;
+        height: auto;
+    }
+
+    .listCardSection p, .listCardSection div {
+        margin: auto;
+    }
+
+    .listCardSection h2 {
+        display: none;
+    }
+
 }
