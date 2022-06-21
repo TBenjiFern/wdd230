@@ -8,7 +8,7 @@
 const currentTemp = document.querySelector('#current-temp');
 const weatherIcon = document.querySelector('#weather-icon');
 const captionDesc = document.querySelector('figcaption');
-// const url = "http://api.openweathermap.org/data/2.5/forecast?lat=64.835365&lon=-147.776749&appid=7294e7be11cf3a02c424a31759e82f74"
+// const url = "https://api.openweathermap.org/data/2.5/forecast?lat=64.835365&lon=-147.776749&appid=7294e7be11cf3a02c424a31759e82f74"
 const url = "https://api.openweathermap.org/data/2.5/forecast?q=Fairbanks&units=imperial&appid=7294e7be11cf3a02c424a31759e82f74"
 
 
