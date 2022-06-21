@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+}
+
+h1 {
+    background-color: aquamarine;
+    max-width: 800px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+}
+
+.weatherBox {
+    border: 1px solid black;
+    max-width: 600px; 
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+p {
+    max-width: 450px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+figcaption {
+    color: darkcyan;
+}
