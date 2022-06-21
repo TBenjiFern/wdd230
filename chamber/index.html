@@ -71,10 +71,10 @@
         <div class="mainSections weatherSection">
             <h2 class="weatherSectionText weatherTitle">Weather</h2>
             <div class="weatherImageWrapper">
-                <img class="weatherImage" src="images/part_cloudy.webp" alt="Partly Cloudy Icon" width="75" height="69">
+                <img id="weatherImg" class="weatherImage" src="images/part_cloudy.webp" alt="Partly Cloudy Icon" width="75" height="69">
             </div>
             <h3 class="weatherSectionText tempText"><span id="tempF">50</span>&#176;F</h3>
-            <p class="weatherSectionText weatherText"> Partly Cloudy</p>
+            <p id="weatherDescription" class="weatherSectionText weatherText"> Partly Cloudy</p>
             <hr class="weatherLine">
             <p class="weatherSectionText windSpeedText">Wind Speed: </p>
             <p class="weatherSectionText windSpeedValue"><span id="windSpeed">3.5</span> mph</p>
@@ -158,6 +158,9 @@
             <div class="footerPiece"><p>WDD 230 Project</p></div>
             <div class="footerDivider"> <p>|</p> </div> 
             <div class="footerPiece"><p>Last Modification: <span id="lastUpdate"></span></p></div>
+        </div>
+        <div class="references">
+            <a href="https://openweathermap.org/">Weather API - openweathermap.org</a>
         </div>
     </footer>
 
