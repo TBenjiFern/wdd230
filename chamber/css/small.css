@@ -271,7 +271,7 @@ nav ul.open {display: block; order: 1;}
 .weatherSection {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    width: 50%;
+    width: auto;
     height: auto;
     justify-self: center;
 }
