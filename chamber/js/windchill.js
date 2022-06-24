@@ -18,7 +18,7 @@ fetch(url)
 
         windSpeed.innerHTML = currentWindSpeed;
 
-        const iconsrc = `https://openweathermap.org/img/w/${data["list"][0]["weather"][0].icon}.png`;
+        const iconsrc = `https://openweathermap.org/img/wn/${data["list"][0]["weather"][0]["icon"]}@2x.png`;
         const desc = data["list"][0]["weather"][0].description;
 
         weatherIcon.setAttribute('src', iconsrc);
