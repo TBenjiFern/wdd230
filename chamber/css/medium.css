@@ -40,6 +40,7 @@
 
     .heroButton:hover {
         box-shadow: 0 0 10px black;
+        cursor: pointer;
     }
 
     .newsSection {
@@ -84,6 +85,7 @@
 
     .joinUsButton:hover {
         box-shadow: 0 0 10px black;
+        cursor: pointer;
     }
 
     .joinSectionText {
@@ -200,6 +202,7 @@
 
     .joinSubmitBtn:hover {
         box-shadow: 0 0 10px #484041;
+        cursor: pointer;
     }
 
 
