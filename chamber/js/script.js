@@ -5,7 +5,7 @@ function toggleMenu() {
 }
 
 function displayDate() {
-    console.log(Date.now());
+    // console.log(Date.now());
 }
 
 function sendDate() {

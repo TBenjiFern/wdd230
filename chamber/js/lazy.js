@@ -48,5 +48,5 @@ const daysSinceLastVisit = Math.floor((now - lastVisitDate) / 86400);
 
 document.querySelector("#daysAgo").textContent = daysSinceLastVisit;
 
-console.log(daysSinceLastVisit);
-console.log(now);
+// console.log(daysSinceLastVisit);
+// console.log(now);
