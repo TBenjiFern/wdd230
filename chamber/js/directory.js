@@ -30,47 +30,47 @@ function activateList() {
 }
 
 fetch(jsonURL)
-.then(response => response.json())
-.then(data => {
+    .then(response => response.json())
+    .then(data => {
 
-    data.forEach(company => {
-        const companySection = document.createElement("section");
-        const name = document.createElement("h2");
-        const imgTag = document.createElement("img");
-        const address = document.createElement("p");
-        const phoneNum = document.createElement("p");
-        const webDiv = document.createElement("div");
-        const webTag = document.createElement("a");
+        data.forEach(company => {
+            const companySection = document.createElement("section");
+            const name = document.createElement("h2");
+            const imgTag = document.createElement("img");
+            const address = document.createElement("p");
+            const phoneNum = document.createElement("p");
+            const webDiv = document.createElement("div");
+            const webTag = document.createElement("a");
 
-        companySection.className = "cardSection";
-        companySection.id = "cardSection";
-        name.className = "cardHeader";
-        imgTag.className = "cardImg";
-        address.className = "cardAddress";
-        phoneNum.className = "cardPhone";
-        webTag.className = "cardWeb";
-        webDiv.className = "webLinkDiv"
+            companySection.className = "cardSection";
+            companySection.id = "cardSection";
+            name.className = "cardHeader";
+            imgTag.className = "cardImg";
+            address.className = "cardAddress";
+            phoneNum.className = "cardPhone";
+            webTag.className = "cardWeb";
+            webDiv.className = "webLinkDiv"
 
-        name.textContent = company["name"];
-        imgTag.src = company["imageURL"];
-        imgTag.width = 300;
-        imgTag.height = 200;
-        imgTag.loading = "lazy";
-        imgTag.alt = "Company Logo"
-        address.textContent = company["address"];
-        phoneNum.textContent = company["phone"];
-        webTag.href = company["url"];
-        webTag.textContent = company["url"];
-        webDiv.appendChild(webTag);
+            name.textContent = company["name"];
+            imgTag.src = company["imageURL"];
+            imgTag.width = 300;
+            imgTag.height = 200;
+            imgTag.loading = "lazy";
+            imgTag.alt = "Company Logo"
+            address.textContent = company["address"];
+            phoneNum.textContent = company["phone"];
+            webTag.href = company["url"];
+            webTag.textContent = company["url"];
+            webDiv.appendChild(webTag);
 
-        companySection.appendChild(name);
-        companySection.appendChild(imgTag);
-        companySection.appendChild(address);
-        companySection.appendChild(phoneNum);
-        companySection.appendChild(webDiv);
+            companySection.appendChild(name);
+            companySection.appendChild(imgTag);
+            companySection.appendChild(address);
+            companySection.appendChild(phoneNum);
+            companySection.appendChild(webDiv);
 
-        directoryCard.appendChild(companySection);
+            directoryCard.appendChild(companySection);
+
+        });
 
     });
-
-});

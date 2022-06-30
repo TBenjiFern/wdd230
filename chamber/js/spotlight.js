@@ -16,50 +16,59 @@ const companyThreeSlogan = document.getElementById("companyThreeSlogan");
 const companyThreeWebsite = document.getElementById("companyThreeWebsite");
 const companyThreePhone = document.getElementById("companyThreePhone");
 
-const jsonURL = "../json/spotlightData.json";
+const jsonURL = "json/spotlightData.json";
 
 console.log(jsonURL);
 
 fetch(jsonURL)
-    .then(response => response.json())
-    .then(data => {
-        console.log(data);
+.then(response => response.json())
+.then(data => {
         let companies = [];
         data.forEach(company => {
             if (company.membershipLevel == "Gold" || company.membershipLevel == "Silver") {
                 companies.push(company);
-                console.log(company);
             }
         });
-
         let times = 3;
         let counter = 0;
+        companies.forEach(item => {
+            console.log(item);
+        });
+        console.log();
+        console.log("---------------------------------------------------");
         for (var i = 0; i < times; i++) {
             let randomNumLimit = companies.length;
             let randomNum = Math.floor(Math.random() * randomNumLimit);
-            let tempCompany = companies.slice(randomNum, randomNum + 1);
+            // console.log(randomNum);
+            // console.log(companies);
+            companies.forEach(item => {
+                console.log(item);
+            });
+            console.log("---------------------------------------------------");
+            let tempCompany = companies.splice(randomNum, 1);
+            // console.log(tempCompany);
             counter++
             if (counter == 1) {
-                companyOneName.textContent = tempCompany["name"];
-                companyOneImg.src = tempCompany["imgURL"];
-                companyOneImg.alt = `${tempCompany["name"]} Company Logo`;
+                companyOneName.textContent = tempCompany[0]["name"];
+                companyOneImg.src = tempCompany[0]["imageURL"];
+                companyOneImg.alt = `${tempCompany[0]["name"]} Company Logo`;
                 // companyOneSlogan.textContent = tempCompany[];
-                companyOneWebsite.textContent = tempCompany["url"];
-                companyOnePhone.textContent = tempCompany["phone"];
+                companyOneWebsite.textContent = tempCompany[0]["url"];
+                companyOnePhone.textContent = tempCompany[0]["phone"];
             } else if (counter == 2) {
-                companyTwoName.textContent = tempCompany["name"];
-                companyTwoImg.src = tempCompany["imgURL"];
-                companyTwoImg.alt = `${tempCompany["name"]} Company Logo`;
+                companyTwoName.textContent = tempCompany[0]["name"];
+                companyTwoImg.src = tempCompany[0]["imageURL"];
+                companyTwoImg.alt = `${tempCompany[0]["name"]} Company Logo`;
                 // companyTwoSlogan.textContent = tempCompany[];
-                companyTwoWebsite.textContent = tempCompany["url"];
-                companyTwoPhone.textContent = tempCompany["phone"];
+                companyTwoWebsite.textContent = tempCompany[0]["url"];
+                companyTwoPhone.textContent = tempCompany[0]["phone"];
             } else {
-                companyThreeName.textContent = tempCompany["name"];
-                companyThreeImg.src = tempCompany["imgURL"];
-                companyThreeImg.alt = `${tempCompany["name"]} Company Logo`;
+                companyThreeName.textContent = tempCompany[0]["name"];
+                companyThreeImg.src = tempCompany[0]["imageURL"];
+                companyThreeImg.alt = `${tempCompany[0]["name"]} Company Logo`;
                 // companyThreeSlogan.textContent = tempCompany[];
-                companyThreeWebsite.textContent = tempCompany["url"];
-                companyThreePhone.textContent = tempCompany["phone"];
+                companyThreeWebsite.textContent = tempCompany[0]["url"];
+                companyThreePhone.textContent = tempCompany[0]["phone"];
             };
         }
     });
