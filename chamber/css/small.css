@@ -827,6 +827,7 @@ form input:required:valid {
 
 .contactPersonSection {
     display: flex;
+    flex: 1 1 auto;
     flex-direction: column;
 }
 
@@ -836,11 +837,16 @@ form input:required:valid {
 
 .randomPerson1 {
     text-align: center;
+    margin: auto;
+    max-width: 400px;
+    height: auto;
 }
 
 .randomPerson1 img {
     box-shadow: 5px 5px 10px black;
     border-radius: 10px;
+    width: 100%;
+    height: auto;
 }
 
 .randomPerson1 p {
@@ -849,11 +855,16 @@ form input:required:valid {
 
 .randomPerson2 {
     text-align: center;
+    margin: auto;
+    max-width: 400px;
+    height: auto;
 }
 
 .randomPerson2 img {
     box-shadow: 5px 5px 10px black;
     border-radius: 10px;
+    width: 100%;
+    height: auto;
 }
 
 .randomPerson2 p {
