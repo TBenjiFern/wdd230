@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="WDD 230 Chamber of Commerce Site - Thank You">
-    <title>Chambers of Moria Thank You</title>
+    <meta name="description" content="WDD 230 Chamber of Commerce Site - Contact">
+    <title>Chambers of Moria Contact</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@500&family=Open+Sans&family=PT+Serif&display=swap"
@@ -35,8 +35,8 @@
             <ul id="navLink">
                 <li><a href="../discover/index.html">Discover</a></li>
                 <li><a href="../directory/">Directory</a></li>
-                <li><a href="../join/index.html">Join</a></li>
-                <li><a href="../contact/">Contact</a></li>
+                <li><a href="../join/">Join</a></li>
+                <li><a href="#">Contact</a></li>
             </ul>
         </nav>
         <div class="spacer1"></div>
@@ -56,18 +56,80 @@
         </div>
     </header>
 
-    <main class="discoverMainGrid">
-        <div class="thanksHeading">
-            <h1>Your Application Has Been Submitted!</h1>
+    <main class="contactMainGrid">
+        <div class="contactHeading">
+            <h1>Contact Us</h1>
         </div>
 
-        <section class="thanksSection">
-            <h2>Thank You!</h2>
-            <p>You will receive an acceptance confirmation email/phone call within 
-                the following 48 hours.</p>
+        <section class="contactPersonSection">
+            <h2>Co-Presidents</h2>
+            <picture class="randomPerson1">
+                <img src="../images/random_person_400x.webp" alt="Co-President Rodrigo Sanchez" width="400" height="400"
+                    loading="lazy">
+                <p>Rodrigo Sanchez</p>
+            </picture>
+            <picture class="randomPerson2">
+                <img src="../images/random_person2_400x.webp" alt="Co-President Stewart Taylor" width="400" height="400"
+                    loading="lazy">
+                <p>Stewart Taylor</p>
+            </picture>
         </section>
 
-        
+        <section class="contactPersonSection">
+            <h2>Executives</h2>
+            <picture class="randomPerson1">
+                <img src="../images/random_person3_400x.webp" alt="Executive Ashley Wang" width="400" height="400"
+                    loading="lazy">
+                <p>Ashley Wang</p>
+            </picture>
+            <picture class="randomPerson2">
+                <img src="../images/random_person4_400x.webp" alt="Executive Yamamoto Hayabayashi" width="400"
+                    height="400" loading="lazy">
+                <p>Yamamoto Hayabayashi</p>
+            </picture>
+        </section>
+
+        <div class="contactGrid">
+            <section class="contactContactInfo">
+                <h2>Contact Us</h2>
+                <h3>Address</h3>
+                <p>100 Mellon Dimrill Dale, Misty Mountains</p>
+                <h3>Phone</h3>
+                <p>062-908-2060</p>
+                <h3>Email</h3>
+                <p>chambersofmoria@moria.org</p>
+                <h3>Office Hours</h3>
+                <p>M-F: 8am - 6pm</p>
+                <p>Sat-Sun: 9am - 4pm</p>
+            </section>
+
+            <form method="get" action="index.html" class="contactContactForm">
+                <fieldset>
+                    <legend>Contact Form</legend>
+
+                    <label for="fname" class="required">First Name: </label>
+                    <input type="text" name="fname" id="fname" required>
+
+                    <label for="lname" class="required">Last Name: </label>
+                    <input type="text" name="lname" id="lname" required>
+
+                    <label for="userEmail" class="required">Email: (chamber@gmail.com) </label>
+                    <input type="email" name="userEmail" id="userEmail" required placeholder="chamber@gmail.com">
+
+                    <label for="cellPhone" class="required">Cell Number: (555-555-5555)</label>
+                    <input type="tel" name="cellPhones" id="cellPhone" required placeholder="555-555-5555"
+                        pattern="\d{3}-\d{3}-\d{4}">
+
+                    <label for="question" class="required">Question/Concern: </label>
+                    <textarea name="question" id="question" cols="29" rows="5"></textarea>
+
+                    <input type="hidden" name="submissionDate" id="submissionDate" hidden>
+
+                    <!-- the onclick causes the hidden field to send the date upon submission -->
+                    <input type="submit" value="Contact the Chamber" onclick="sendDate()" class="joinSubmitBtn">
+                </fieldset>
+            </form>
+        </div>
     </main>
 
     <footer>

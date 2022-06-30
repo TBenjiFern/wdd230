@@ -810,3 +810,62 @@ form input:required:valid {
 .webLinkDiv {
     margin: 10px;
 }
+
+/* CSS for Contact Page */
+
+.contactMainGrid {
+
+}
+
+.contactHeading {
+    text-align: center;
+}
+
+.contactPersonSection {
+    display: flex;
+    flex-direction: column;
+}
+
+.contactPersonSection h2 {
+    text-align: center;
+}
+
+.randomPerson1 {
+    text-align: center;
+}
+
+.randomPerson1 img {
+    box-shadow: 5px 5px 10px black;
+    border-radius: 10px;
+}
+
+.randomPerson1 p {
+    font-weight: bold;
+}
+
+.randomPerson2 {
+    text-align: center;
+}
+
+.randomPerson2 img {
+    box-shadow: 5px 5px 10px black;
+    border-radius: 10px;
+}
+
+.randomPerson2 p {
+    font-weight: bold;
+}
+
+.contactContactInfo {
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.contactContactInfo h3 {
+    margin: 10px 0;
+}
+
+.contactContactInfo p {
+    margin: 5px 0;
+}
