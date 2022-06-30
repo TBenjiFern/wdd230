@@ -1,0 +1,74 @@
+[
+    {
+        "name": "Amazon",
+        "address": "Amazon 410 Terry Ave N, Seattle Washington, United States",
+        "phone": "206-266-1000",
+        "url": "https://www.amazon.com/",
+        "imageURL" : "images/amazon.webp",
+        "membershipLevel": "Gold"
+    },
+    {
+        "name": "Sony",
+        "address": "1 Sony Dr, Park Ridge, NJ 07656, United States",
+        "phone": "201-930-1000",
+        "url": "https://www.sony.com/en/",
+        "imageURL": "images/sony.webp",
+        "membershipLevel": "Gold"
+    },
+    {
+        "name": "Walmart",
+        "address": "702 S.W. 8th St. Bentonville, Arkansas, AK 72716, US.",
+        "phone": "800-925-6278",
+        "url": "https://www.walmart.com/",
+        "imageURL": "images/walmart.webp",
+        "membershipLevel": "Silver"
+    },
+    {
+        "name": "Target",
+        "address": "1000 Nicollet Mall, Minneapolis, MN 55403, United States",
+        "phone": "800-440-0680",
+        "url": "https://www.target.com/",
+        "imageURL": "images/target.webp",
+        "membershipLevel": "Bronze"
+    },
+    {
+        "name": "Adidas",
+        "address": "Adi-Dassler-Strasse 1, 91074 Herzogenaurach Germany",
+        "phone": "+49 (0) 9132 84-0",
+        "url": "https://www.adidas.com/us",
+        "imageURL": "images/adidas.webp",
+        "membershipLevel": "Gold"
+    },
+    {
+        "name": "Uber",
+        "address": "1455 Market St, San Francisco, CA 94103.",
+        "phone": "653-158-4255",
+        "url": "https://www.uber.com/",
+        "imageURL": "images/uber.webp",
+        "membershipLevel": "Silver"
+    },
+    {
+        "name": "Toyota",
+        "address": "P.O. Box 5855 Carol Stream, IL 60197-5855",
+        "phone": "800-331-4331",
+        "url": "https://www.toyota.com/",
+        "imageURL": "images/toyota.webp",
+        "membershipLevel": "Silver"
+    },
+    {
+        "name": "McDonald's",
+        "address": "2111 McDonald's Dr. Oak Brook, IL 60523",
+        "phone": "844-534-7211",
+        "url": "https://www.mcdonalds.com/",
+        "imageURL": "images/mcdonalds.webp",
+        "membershipLevel": "Bronze"
+    },
+    {
+        "name": "Costco",
+        "address": "999 Lake Dr. Issaquah, WA 98027",
+        "phone": "800-774-2678",
+        "url": "https://www.costco.com/",
+        "imageURL": "images/costco.webp",
+        "membershipLevel": "Gold"
+    }
+]
