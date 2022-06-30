@@ -18,8 +18,6 @@ const companyThreePhone = document.getElementById("companyThreePhone");
 
 const jsonURL = "json/spotlightData.json";
 
-console.log(jsonURL);
-
 fetch(jsonURL)
 .then(response => response.json())
 .then(data => {
@@ -31,42 +29,30 @@ fetch(jsonURL)
         });
         let times = 3;
         let counter = 0;
-        companies.forEach(item => {
-            console.log(item);
-        });
-        console.log();
-        console.log("---------------------------------------------------");
         for (var i = 0; i < times; i++) {
             let randomNumLimit = companies.length;
             let randomNum = Math.floor(Math.random() * randomNumLimit);
-            // console.log(randomNum);
-            // console.log(companies);
-            companies.forEach(item => {
-                console.log(item);
-            });
-            console.log("---------------------------------------------------");
             let tempCompany = companies.splice(randomNum, 1);
-            // console.log(tempCompany);
             counter++
             if (counter == 1) {
                 companyOneName.textContent = tempCompany[0]["name"];
                 companyOneImg.src = tempCompany[0]["imageURL"];
                 companyOneImg.alt = `${tempCompany[0]["name"]} Company Logo`;
-                // companyOneSlogan.textContent = tempCompany[];
+                companyOneSlogan.textContent = tempCompany[0]["slogan"];
                 companyOneWebsite.textContent = tempCompany[0]["url"];
                 companyOnePhone.textContent = tempCompany[0]["phone"];
             } else if (counter == 2) {
                 companyTwoName.textContent = tempCompany[0]["name"];
                 companyTwoImg.src = tempCompany[0]["imageURL"];
                 companyTwoImg.alt = `${tempCompany[0]["name"]} Company Logo`;
-                // companyTwoSlogan.textContent = tempCompany[];
+                companyTwoSlogan.textContent = tempCompany[0]["slogan"];
                 companyTwoWebsite.textContent = tempCompany[0]["url"];
                 companyTwoPhone.textContent = tempCompany[0]["phone"];
             } else {
                 companyThreeName.textContent = tempCompany[0]["name"];
                 companyThreeImg.src = tempCompany[0]["imageURL"];
                 companyThreeImg.alt = `${tempCompany[0]["name"]} Company Logo`;
-                // companyThreeSlogan.textContent = tempCompany[];
+                companyThreeSlogan.textContent = tempCompany[0]["slogan"];
                 companyThreeWebsite.textContent = tempCompany[0]["url"];
                 companyThreePhone.textContent = tempCompany[0]["phone"];
             };

@@ -8,7 +8,6 @@ gridViewBtn.addEventListener("click", activateGrid);
 listViewBtn.addEventListener("click", activateList)
 
 function activateGrid() {
-    console.log("Hello World");
     let businessDirectoryCardWrapper = document.querySelector("#businessDirectoryCard");
     let cardSectionClass = document.querySelectorAll("#cardSection");
 
@@ -19,7 +18,6 @@ function activateGrid() {
 }
 
 function activateList() {
-    console.log("World, Hello");
     let businessDirectoryCardWrapper = document.querySelector("#businessDirectoryCard");
     let cardSectionClass = document.querySelectorAll("#cardSection");
 
