@@ -270,12 +270,12 @@
 }
 
 .randomPerson1 {
-    grid: 1 / 2;
+    grid-column: 1 / 2;
     text-align: center;
 }
 
 .randomPerson2 {
-    grid: 2 / 3;
+    grid-column: 2 / 3;
     text-align: center;
 }
 
