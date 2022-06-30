@@ -54,7 +54,7 @@ fetch(jsonURL)
             imgTag.width = 300;
             imgTag.height = 200;
             imgTag.loading = "lazy";
-            imgTag.alt = "Company Logo"
+            imgTag.alt = `${company["name"]} Company Logo`;
             address.textContent = company["address"];
             phoneNum.textContent = company["phone"];
             webTag.href = company["url"];
