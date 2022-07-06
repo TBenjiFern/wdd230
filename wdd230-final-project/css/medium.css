@@ -1,0 +1,11 @@
+@media only screen and (min-width: 730px) {
+  
+    .collapsingBtn:hover {
+        box-shadow: 0 0 10px #33291F;
+    }
+
+    .socialMediaIcon:hover {
+        box-shadow: 0 0 10px #33291F;
+    }
+
+}

@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Gantari', sans-serif;
+}
+
+h2, h3, h4, li {
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+
+li {
+    font-size: 1.25em;
+}
+
+p {
+    font-family: 'Merriweather', serif;
+}
+
+nav ul {display: none;}
+nav ul.appear {display: block; order: 1;}
+
+#collapsingBtn span:nth-child(1) {display: block;}
+#collapsingBtn span:nth-child(2) {display: none;}
+
+#collapsingBtn.open span:nth-child(1) {display: none;}
+#collapsingBtn.open span:nth-child(2) {display: block;}
+
+.logoWrapper {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: center;
+    height: 150px;
+}
+
+.logoWrapper a {
+    display: flex;
+}
+
+.logoWrapper h2 {
+    float: right;
+    margin-top: 61px;
+    color: black;
+}
+
+.navWrapper {
+    display: flex;
+    flex-direction: column;
+    background-color: #C5D2D6;
+    height: 75;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.navIcons {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.collapsingBtn {
+    width: 50px;
+    height: 50px;
+    font-size: 2em;
+    margin: 20px 20px;
+    border-radius: 10px;
+}
+
+.open {
+    width: 50px;
+    height: 50px;
+}
+
+.socialMediaLink {
+    margin: auto;
+    margin-right: 10px;
+}
+
+.socialMediaIcon {
+    margin: 0 10px;
+    border-radius: 15px;
+}
+
+.navBar {
+    order: 1;
+    display: flex;
+    margin: 0 auto;
+    flex: 1 1 auto;
+    background-color: #988B6D;
+    width: 100%;
+    height: auto;
+}
+
+.naviLinks {
+    text-decoration: none;
+    list-style: none;
+    flex-direction: column;
+    overflow: hidden;
+    flex: 1 1 auto;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.navi {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 1rem;
+    display: block;
+    border-radius: 10px;
+}
+
+nav ul li a:hover {
+    background-color: #624C40;
+    color: #fff;
+}
+
+/* 
+
+#C5D2D6
+#E9784B
+#988B6D
+#624C40
+#33291F
+
+*/
+
+.color1 {
+    width: 200px;
+    height: 50px;
+    background-color: #C5D2D6;
+}
+.color2 {
+    width: 200px;
+    height: 50px;
+    background-color: #E9784B;
+}
+.color3 {
+    width: 200px;
+    height: 50px;
+    background-color: #988B6D;
+}
+.color4 {
+    width: 200px;
+    height: 50px;
+    background-color: #624C40;
+}
+.color5 {
+    width: 200px;
+    height: 50px;
+    background-color: #33291F;
+}

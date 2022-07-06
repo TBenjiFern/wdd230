@@ -1,0 +1,56 @@
+@media only screen and (min-width: 1100px) {
+    .collapsingBtn {
+        display: none;
+    }
+
+    nav ul {
+        display: flex;
+        flex: 1 1 auto;
+    }
+
+    nav ul li a {
+        padding: 1rem;
+        margin: 5px;
+    }
+
+    .navWrapper {
+        margin: 5px;
+    }
+
+    .navIcons {
+        flex-wrap: nowrap;
+    }
+
+    .navBar {
+        order: 0;
+        background-color: #C5D2D6;
+        width: auto;
+        border-radius: 10px;
+    }
+
+    .naviLinks {
+        flex-direction: row;
+        margin: 5px;
+        justify-content: center;
+    }
+
+    .navi {
+        border: none;
+        width: 100%;
+        padding: 0;
+    }
+
+    .naviTemples {
+
+    }
+
+    .naviReserve {
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+    }
+
+    .naviService {
+        border-right: 1px solid black;
+    }
+
+}
