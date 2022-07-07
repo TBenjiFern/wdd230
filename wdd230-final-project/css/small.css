@@ -12,7 +12,7 @@ h2, h3, h4, li {
 }
 
 li {
-    font-size: 1.25em;
+    font-size: 1.4em;
 }
 
 p {
@@ -115,6 +115,7 @@ nav ul li a {
     padding: 1rem;
     display: block;
     border-radius: 10px;
+    color: #fff;
 }
 
 nav ul li a:hover {
@@ -122,38 +123,200 @@ nav ul li a:hover {
     color: #fff;
 }
 
-/* 
-
-#C5D2D6
-#E9784B
-#988B6D
-#624C40
-#33291F
-
-*/
-
-.color1 {
-    width: 200px;
-    height: 50px;
-    background-color: #C5D2D6;
+.mainGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    justify-content: space-evenly;
 }
-.color2 {
-    width: 200px;
-    height: 50px;
-    background-color: #E9784B;
+
+.mainSection {
+    grid-column: 1/2;
+    text-align: center;
+    border: 2px solid #33291F;
+    flex: 1 1 auto;
+    margin: auto;
 }
-.color3 {
-    width: 200px;
-    height: 50px;
-    background-color: #988B6D;
+
+.mainBanner {
+    position: relative;
+    display: flex;
+    padding: 0;
+    min-width: 300px;
+    height: auto;
 }
-.color4 {
-    width: 200px;
+
+.templeBannerHeading {
+    position: absolute;
+    font-size: 1.75em;
+    text-align: center;
+    margin: 0;
+    top: 50px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+}
+
+.bannerImgWrapper {
+    overflow: hidden;
+    width: 100%;
+}
+
+.templeBannerImg {
+    width: 100%;
+    height: 100%;
+    object-position: top;
+}
+
+.templeBtnWrapper {
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translate(-50%, -50%);
     height: 50px;
+    margin: auto;
+    min-width: 200px;
+    max-width: 300px;
+}
+
+.templeBannerBtn {
+    width: 100%;
+    height: 100%;
+    flex: 1 1 auto;
+    border-radius: 10px;
+    background-color: rgb(233,120,75, .8);
+    color: #fff;
+    text-shadow: 0 0 3px #33291F;
+}
+
+.templeImg {
+    padding: 20px;
     background-color: #624C40;
+    border-radius: 10px;
 }
-.color5 {
-    width: 200px;
-    height: 50px;
-    background-color: #33291F;
+
+.spotlightTempleWrapper {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+.spotlightTempleImg {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #33291F;
+}
+
+.templeDescription, .aboutUs {
+    text-align: left;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: #624C40;
+    max-width: 450px;
+    justify-self: center;
+}
+
+.templeDescription h2, .aboutUs h2 {
+    text-align: center;
+    color: #fff;
+    text-shadow: 0 0 5px #33291F;
+}
+
+.templeDescription p, .aboutUs p {
+    margin: 10px;
+    line-height: 1.75em;
+    background-color: rgb(152, 139, 109, .8);
+    border-radius: 15px;
+    padding: 10px;
+    color: #fff;
+    text-shadow: 0 0 1px #33291F;
+}
+
+.aboutUs a:hover {
+    text-shadow: 0 0 5px #33291F;
+}
+
+.aboutUs a {
+    text-decoration: underline;
+    color: #fff;
+}
+
+.todayWeather {
+    border-radius: 10px;
+}
+
+.todayWeather, .dayOneForecast, .dayTwoForecast, .dayThreeForecast  {
+    background-color: #988B6D;
+    color: #fff;
+    min-width: 250px;
+}
+
+.todayWeather h2, .dayOneForecast h2, .dayTwoForecast h2, .dayThreeForecast h2 {
+    text-shadow: 0 0 3px #33291F;
+}
+
+.todayWeather p, .dayOneForecast p, .dayTwoForecast p, .dayThreeForecast p {
+    text-shadow: 0 0 1px #33291F;
+    line-height: 1.2em;
+    margin: 10px 0;
+}
+
+.threeDayForecast {
+    display: flex;
+    background-color: #624C40;
+    padding: 5px;
+    border-radius: 10px;
+    max-width: 450px;
+    flex-direction: column;
+}
+
+.dayOneForecast, .dayTwoForecast, .dayThreeForecast {
+    border: 1px solid black;
+    margin: 5px;
+}
+
+.addLinksSection {
+    background-color: #624C40;
+    color: #fff;
+    width: 80%;
+    min-width: 300px;
+    max-width: 450px;
+    text-align: left;
+    word-wrap: break-word;
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.addLinksSection h2 {
+    text-shadow: 0 0 3px #33291F;
+    text-align: center;
+}
+
+.addLinksSection a {
+    color: #fff;
+}
+
+.addLinksSection p {
+    margin: 10px;
+    padding: 5px;
+    background-color: #988B6D;
+    line-height: 1.75em;
+    border-radius: 10px;
+}
+
+.mainFooter {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #C5D2D6;
+    margin-top: 10px;
+}
+
+footer hr {
+    display: block;
+    width: 100%;
+    border-top: 1px solid #33291F;
 }

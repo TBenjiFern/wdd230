@@ -1,5 +1,9 @@
 @media only screen and (min-width: 730px) {
   
+    .logoWrapper h2 {
+        font-size: 2em;
+    }
+
     .collapsingBtn:hover {
         box-shadow: 0 0 10px #33291F;
     }
@@ -8,4 +12,80 @@
         box-shadow: 0 0 10px #33291F;
     }
 
+    .mainGrid {
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+
+    .mainBanner {
+        grid-column: 1/3;
+    }
+
+    
+    .templeBannerHeading {
+        width: 500px;
+        font-size: 2em;
+    }
+    
+    .templeBtnWrapper {
+        width: 400px;
+        max-width: 500px;
+    }
+    
+    .templeBannerBtn:hover {
+        box-shadow: 5px 5px 10px black;
+    }
+    
+    .templeImg {
+        grid-column: 1/3;
+    }
+    
+    .templeDescription {
+        grid-column: 1/2;
+        margin: 10px;
+    }
+    
+    .aboutUs {
+        grid-column: 2/3;
+        margin: 10px;
+    }
+
+    .todayWeather {
+        grid-column: 1/3;
+    }
+
+    .threeDayForecast {
+        grid-column: 1/3;
+        flex-direction: row;
+        max-width: 850px;
+    }
+
+    .dayOneForecast, .dayTwoForecast, .dayThreeForecast {
+        border: 1px solid black;
+        margin: 0px;
+        min-width: 200px;
+    }
+
+    .addLinksSection {
+        grid-column: 1/3;
+    }
+
+    .mainFooter {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .footerLogo {
+        float: left;
+    }
+
+    .footerLinksContainer {
+        width: 70%;
+        margin-top: 60px;
+    }
+
+    footer hr {
+        margin: 20px 0;
+    }
+    
 }

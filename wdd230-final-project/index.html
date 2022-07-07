@@ -47,31 +47,128 @@
         </section>
     </header>
 
-    <main>
+    <main class="mainGrid">
 
-        <p class="color1">
+        <section class="mainBanner mainSection">
+            <h1 class="templeBannerHeading">Welcome to Temple Inn & Suites</h1>
+            <form class="templeBtnWrapper" action="reservation/">
+                <button class="templeBannerBtn" type="submit" value="Go to Reservation">Make a Reservation Now</button>
+            </form>
+            <picture class="bannerImgWrapper">
+                <img class="templeBannerImg" srcset="images/temple_banner_400x.webp 400w,
+                        images/temple_banner_700x.webp 700w,
+                        images/temple_banner_1100x.webp 1100w,
+                        images/temple_banner_1500x.webp 1500w" sizes="(max-width: 1200px) 100vw, 50vw"
+                    src="images/temple_banner_1100x.webp" alt="Temple Inn & Suites Banner" loading="lazy">
+            </picture>
+        </section>
 
-        </p>
-        <p class="color2">
+        <figure class="templeImg mainSection">
+            <picture class="spotlightTempleWrapper">
+                <img class="spotlightTempleImg" srcset="images/sapporo_temple_400x.webp 400w, 
+                                                        images/sapporo_temple_1000x.webp 1000w"
+                                                sizes="(max-width: 1200px) 100vw, 50vw" 
+                    src="images/sapporo_temple_1000x.webp" alt="Sapporo, Japan Temple"
+                    width="400" height="296" loading="lazy">
+            </picture>
+        </figure>
 
-        </p>
-        <p class="color3">
+        <section class="templeDescription mainSection">
+            <h2>Sapporo Japan Temple</h2>
+            <p><strong>Temple #:</strong> 151st Temple <br>
+                <strong>Dedicated:</strong> August 21st, 2016 <br>
+                <strong>Dedicated By:</strong> President Russell M. Nelson <br>
+                <strong>Announced:</strong> October 3rd, 2009 <br>
+                <strong>Site Dedication:</strong> October 22nd, 2011 <br>
+                <strong>Site Dedicated By:</strong> Gary E. Stevenson <br>
+                <strong>Located:</strong> 1-6-1 Ooyachi-Nishi, Atsubetsu-ku Sapporo-shi, Hokkaido, Japan. <br>
+                <strong>Telephone:</strong> (+81) 11-890-8120 <br>
+                <strong>Size:</strong> 48,480 square-feet (9.8 acres) <br>
+                <strong>Temple Facts:</strong> The Sapporo Japan Temple was the eigth temple built on the continent of
+                Asia
+                and the third built in the country of Japan.
 
-        </p>
-        <p class="color4">
+            </p>
+        </section>
 
-        </p>
-        <p class="color5">
+        <section class="aboutUs mainSection">
+            <h2>Temple Inn & Suites - About Us</h2>
+            <p>Temple Inn & Suites’ purpose is to help
+                provide room and provisions for individuals or families seeking to visit a
+                temple located anywhere in the world.
+                We understand that it can be difficult to find a place to stay near a new temple,
+                especially when that temple is located in a foreign country.
+                With our tools and resources at your finger tips, we will help you book the reservations
+                you need, when you need it.</p>
+            <p>For more information, please visit our Temples or Reservations pages.
+                For information about services, please visit the Services page.
+                For any additional assistance, please <a href="contact-us/"><strong>Contact Us</strong></a>.
+            </p>
+        </section>
 
-        </p>
+        <section class="todayWeather mainSection">
+            <h2>Sapporo, Japan<br>Today's Weather</h2>
+            <img id="todayWeatherImg" src="#" alt="Today's Weather in Sapporo Japan">
+            <p><span id="todayWeatherDescription"></span></p>
+            <p><strong>Temperature:</strong> <span id="todayTemp">50</span>&#176;F</p>
+            <p><strong>Humidity:</strong> <span id="todayHumidity">10</span>%</p>
+        </section>
 
+        <section class="threeDayForecast mainSection">
+            <article class="dayOneForecast">
+                <h2>Sapporo, Japan<br><span id="dayOneDay"></span> Weather</h2>
+                <img id="oneWeatherImg" src="#" alt="Today's Weather in Sapporo Japan">
+                <p><span id="oneWeatherDescription"></span></p>
+                <p><strong>Temperature:</strong> <span id="dayOneTemp">50</span>&#176;F</p>
+                <p><strong>Humidity:</strong> <span id="dayOneHumidity">10</span>%</p>
+            </article>
+            <article class="dayTwoForecast">
+                <h2>Sapporo, Japan<br><span id="dayTwoDay"></span> Weather</h2>
+                <img id="twoWeatherImg" src="#" alt="Today's Weather in Sapporo Japan">
+                <p><span id="twoWeatherDescription"></span></p>
+                <p><strong>Temperature:</strong> <span id="dayTwoTemp">50</span>&#176;F</p>
+                <p><strong>Humidity:</strong> <span id="dayTwoHumidity">10</span>%</p>
+            </article>
+            <article class="dayThreeForecast">
+                <h2>Sapporo, Japan<br><span id="dayThreeDay"></span> Weather</h2>
+                <img id="threeWeatherImg" src="#" alt="Today's Weather in Sapporo Japan">
+                <p><span id="threeWeatherDescription"></span></p>
+                <p><strong>Temperature:</strong> <span id="dayThreeTemp">50</span>&#176;F</p>
+                <p><strong>Humidity:</strong> <span id="dayThreeHumidity">10</span>%</p>
+            </article>
+        </section>
+
+        <section class="addLinksSection mainSection">
+            <h2>Additional Links</h2>
+            <p><strong>Facebook:</strong> <br><a
+                    href="https://facebook.com">https://facebook.com/temple_inn_and_suites</a>
+                <br><strong>Instagram:</strong> <br><a
+                    href="https://instagram.com">https://instagram.com/temple_inn_and_suites</a>
+                <br><strong>LinkedIn:</strong> <br><a
+                    href="https://linkedin.com">https://linkedin.com/temple_inn_and_suites</a>
+                <br><strong>Twitter:</strong> <br><a
+                    href="https://twitter.com">https://twitter.com/temple_inn_and_suites</a>
+            </p>
+        </section>
     </main>
 
-    <footer>
+    <footer class="mainFooter">
+
+        <picture class="footerLogo">
+            <img src="images/logo_200x.webp" alt="Temple Inn & Suites Footer Logo">
+        </picture>
+        <div class="footerLinksContainer">
+            <p><a href="contact-us/">Contact Us</a> - <a href="references/">References</a> - <a
+                    href="contact-us/">Google Maps</a></p>
+            <hr>
+            <p>4800 Montgomery Ln #300, Bethesda, MD 20814</p>
+            <p>&copy;<span id="currentYear"></span> - Benjamin Fernelius - Last Modified: <span id="updateDate"></span></p>
+        </div>
 
     </footer>
 
     <script src="js/script.js"></script>
+    <script src="js/weather.js"></script>
 
 </body>
 
