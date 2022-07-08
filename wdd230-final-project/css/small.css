@@ -505,3 +505,125 @@ footer hr {
     display: block;
 }
 
+/* CSS for Reservation page */
+
+.reservationGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.reservationGrid h1 {
+    text-align: center;
+}
+
+form fieldset{
+    border: 2px solid #E9784B;
+    border-radius: 5px;
+    background-color: #C5D2D6;
+}
+
+fieldset:first-child {
+    margin-bottom: 10px;
+}
+
+fieldset:nth-child(2) {
+    margin-top: 10px;
+}
+
+label {
+    margin-top: 10px;
+    margin-bottom: 2px;
+    font-weight: bold;
+}
+
+label, legend{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+option, input, select{
+    font-family: 'Merriweather', serif;
+}
+
+select {
+    border-radius: 5px;
+    padding: .75rem;
+}
+
+legend {
+    font-weight: bold;
+    color: #484041;
+}
+
+form label,
+form input {
+    display: block;
+    width: 100%;
+}
+
+form {
+    max-width: 320px;
+    margin: 10px auto;
+}
+
+form input {
+    margin-top: 2px;
+    margin-bottom: 1em;
+    padding: .75rem;
+    border-radius: 10px;
+}
+
+label input {
+    display: inline;
+    width: auto;
+    margin: 0;
+}
+
+form label.required::after {
+    content: " *";
+    color: red;
+}
+
+form input:required {
+    border-left: 4px solid red;
+}
+
+form input:required:valid {
+    border-left: 4px solid green;
+}
+
+.roomNumber {
+    font-size: 20px;
+    width: auto;
+    padding: .6rem;
+}
+
+.makeReservationBtn {
+    margin-top: 10px;
+}
+
+.roomSection {
+    background-color: #988B6D;
+    max-width: 400px;
+    border-radius: 10px;
+    border: 2px solid #33291F;
+    margin: auto;
+}
+
+.roomSection h2 {
+    text-align: center;
+    color: #fff;
+    text-shadow: 0 0 5px #33291F;
+}
+
+.roomSection h3 {
+    color: #fff;
+    text-shadow: 0 0 5px #33291F;
+    padding: 0 5px;
+    font-size: 1.25em;
+}
+
+.roomSection p {
+    color: #fff;
+    text-shadow: 0 0 5px #33291F;
+    padding: 0 5px;
+}

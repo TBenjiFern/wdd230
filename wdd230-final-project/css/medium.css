@@ -118,4 +118,15 @@
     .likeForm button:hover {
         box-shadow: 0 0 10px #fff;
     }
+
+    /* CSS for Reservation page */
+
+    .reservationGrid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .reservationGrid h1 {
+        grid-column: 1/3;
+    }
+
 }

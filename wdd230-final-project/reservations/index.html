@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Reservation page for Temple Inn & Suites - Make a reservation now to visit a temple of your choosing">
+    <title>Temple Inn & Suites - Reservation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Gantari&family=Merriweather:wght@300&family=Ubuntu:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="../images/favicon.ico">
+    <link rel="stylesheet" href="../css/small.css">
+    <link rel="stylesheet" href="../css/medium.css">
+    <link rel="stylesheet" href="../css/large.css">
+    <link rel="stylesheet" href="../css/normalize.css">
+</head>
+
+<body>
+    <header>
+        <figure class="logoWrapper">
+            <a href="../">
+                <img src="../images/logo_150x.webp" alt="Temple Inn & Suites Logo" loading="lazy">
+                <h2>Temple Inn & Suites</h2>
+            </a>
+        </figure>
+        <section class="navWrapper">
+            <section class="navIcons">
+                <button id="collapsingBtn" class="collapsingBtn"><span>&#9776;</span><span>X</span></button>
+                <nav class="navBar">
+                    <ul id="naviLinks" class="naviLinks">
+                        <li class="navi naviTemples"><a href="../temples/">Temples</a></li>
+                        <li class="navi naviReserve"><a href="#">Reservations</a></li>
+                        <li class="navi naviService"><a href="../services/">Services</a></li>
+                    </ul>
+                </nav>
+                <figure class="socialMediaLink">
+                    <a href="https://facebook.com"><img class="socialMediaIcon" src="../images/facebook_50x.webp"
+                            alt="Facebook link button" width="50" height="50"></a>
+                    <a href="https://instagram.com"><img class="socialMediaIcon" src="../images/insta_50x.webp"
+                            alt="Instagram link button" width="50" height="50"></a>
+                </figure>
+            </section>
+        </section>
+    </header>
+
+    <main class="reservationGrid">
+
+        <h1>Make a Reservation</h1>
+
+        <form method="get" action="reservation-sent.html">
+            
+            <fieldset>
+                <legend>Patron Information</legend>
+                
+                <label for="fName" class="required">First Name: </label>
+                <input type="text" name="fName" id="fName" min="1" max="50" required>
+                
+                <label for="mName">Middle Name (optional): </label>
+                <input type="text" name="mName" id="mName" min="1" max="50">
+                
+                <label for="lName" class="required">Last Name: </label>
+                <input type="text" name="lName" id="lName" min="1" max="50" required>
+                
+                <label for="email" class="required">Email: (temple@gmail.com)</label>
+                <input type="email" name="email" id="email" required placeholder="temple@gmail.com" min="1" max="75">
+                
+                <label for="phone" >Phone #: (999-999-9999)</label>
+                <input type="tel" name="phone" id="phone" placeholder="999-999-9999" pattern="\d{3}-\d{3}-\d{4}">
+                
+                <label for="origin" class="required">Home State or Country: </label>
+                <input type="text" name="origin" id="origin" required placeholder="Nevada/Europe/etc" min="1" max="75" >
+            </fieldset>
+
+            <fieldset>
+                <legend>Reservation Information</legend>
+
+                <label for="location" class="required">Location: </label>
+                <select name="location" id="location" required>
+                    <option value="">Select Location</option>
+                    <option value="Sapporo, Japan">Sapporo, Japan</option>
+                    <option value="Tokyo, Japan">Tokyo, Japan</option>
+                    <option value="Fukuoka, Japan">Fukuoka, Japan</option>
+                    <option value="St. George, Utah">St. George, Utah</option>
+                </select>
+
+                <label for="date" class="required">Date: </label>
+                <input type="date" id="date" name="date" required>
+
+                <label for="suite" class="required">Suite or Room Type: </label>
+                <select name="suite" id="suite" required>
+                    <option value="">Select Room/Suite</option>
+                    <option value="Single Bed">Single Bed</option>
+                    <option value="Double Bed">Double Bed</option>
+                    <option value="Triple Bed">Triple Bed</option>
+                    <option value="Standard Suite">Standard Suite</option>
+                    <option value="Junior Suite">Junior Suite</option>
+                    <option value="Bridal Suite">Bridal Suite</option>
+                    <option value="Groom's Suite">Bridal Suite</option>
+                </select>
+
+                <label for="roomNum" class="required">Number of Rooms/Suites: </label>
+                <input class="roomNumber" type="number" name="roomNum" id="roomNum" min="1" max="5" required>
+
+                <label for="comments">Special Accommodation/Comments: </label>
+                <textarea name="comments" id="comments" cols="29" rows="5"></textarea>
+
+                <input class="makeReservationBtn" type="submit" value="Make Reservation">
+            </fieldset>
+        </form>
+
+        <section class="roomSection">
+            <h2>Room/Suite Types</h2>
+            <h3>Single Bed</h3>
+            <p>Comfortable room for individual guests. Single Bed includes a bathroom, closet, and queen-sized bed for your stay. (King-sized beds available upon request)</p>
+            <h3>Double Bed</h3>
+            <p>Ideal room size for guests traveling in pairs. Double Bed includes a bathroom, closet, two queen-sized beds, and a television set.</p>
+            <h3>Triple Bed</h3>
+            <p>The Triple Bed room is the ideal room for a small family. This room includes a bathroom, two closets, two queen-sized beds, a television, and a futon/pull out bed.</p>
+            <h3>Standard Suite</h3>
+            <p>The Standard Suite is suited for guests intending to travel in comfort or for an extended period of time. 
+                This suite includes two king-sized beds, a television, two bathrooms, a kitchen area, a closet, and desk/eating space.
+                The bedroom and kitchen area are separated by a dividing wall to improve privacy and comfort of life.
+            </p>
+            <h3>Junior Suite</h3>
+            <p>Much like the Standard Suite, the Junior Suite is intended for individual guests who want to travel in comfort.
+                 This suite includes a single king-sized bed, a closet, a bathroom, a television, and a kitchen area. Unlike the Standard Suite,
+                 The kitchen area and bedroom are not separated by a dividing wall, but the room size is expanded to provide comfort and ease-of-access.
+                </p>
+            <h3>Bridal Suite</h3>
+            <p>The Bridal Suite is equipped with all the accommodations a soon-to-be wedded bride could need.
+                From getting your hair and makeup done to finding a place to relax before the big moment, the Bridal Suite is the ideal choice for getting ready for a wedding.
+                This suite includes a fully stocked and expanded restroom, a king-sized bed, refreshment bar, stocked kitchen area, and gets special priority to room services.
+                Additional accommodations available upon request.
+            </p>
+            <h3>Groom's Suite</h3>
+            <p>The Groom's Suite is equipped with all the accommodations a groom will need. 
+                Much like the Bridal Suite, the Groom's Suite is equipped with a king-sized bed, refreshment bar, stocked kitchen area, expanded restroom, and an entertainment area
+                for any guests the groom might expect. Grooms also get priority room service along with additional accommodations upon request.
+            </p>
+        </section>
+
+    </main>
+
+    <footer class="mainFooter">
+
+        <picture class="footerLogo">
+            <img src="../images/logo_200x.webp" alt="Temple Inn & Suites Footer Logo">
+        </picture>
+        <div class="footerLinksContainer">
+            <p><a href="../contact-us/">Contact Us</a> - <a href="../references/">References</a> - <a
+                    href="../contact-us/">Google Maps</a></p>
+            <hr>
+            <p>4800 Montgomery Ln #300, Bethesda, MD 20814</p>
+            <p>&copy;<span id="currentYear"></span> - Benjamin Fernelius - Last Modified: <span id="updateDate"></span>
+            </p>
+        </div>
+
+    </footer>
+
+    <script src="../js/script.js"></script>
+
+</body>
+
+</html>
