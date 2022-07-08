@@ -101,8 +101,10 @@
         grid-template-columns: 1fr 1fr;
     }
 
-    .templeSection:hover {
-        box-shadow: 0 0 10px #33291F;
+    .templeName:hover {
+        box-shadow: 0 0 10px #fff;
+        color: #E9784B;
+        text-shadow: 0 0 3px #33291F;
     }
     
     #templeClass0 {
@@ -111,5 +113,9 @@
 
     #templeClass1 {
         grid-column: 2/3;
+    }
+
+    .likeForm button:hover {
+        box-shadow: 0 0 10px #fff;
     }
 }

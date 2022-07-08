@@ -371,9 +371,9 @@ footer hr {
     flex-direction: column;
     margin: 10px;
     max-width: 450px;
-    min-width: 380px;
+    min-width: 320px;
     border-radius: 10px;
-    max-height: 550px;
+    max-height: 560px;
 }
 
 .templeSection h2, .templeSection h3 {
@@ -382,12 +382,28 @@ footer hr {
     text-shadow: 0 0 5px #33291F;
 }
 
-.templeSection picture{
+.templeName {
+    padding: 10px;
+    margin: 15px;
+    border-radius: 10px;
+    background-color: #624C40;
+}
+
+.templeSection section {
     justify-content: center;
     margin: auto;
     flex: 1 1 auto;
     padding: 5px;
+    position: relative;
 }
+
+.templeSection picture{
+    justify-content: center;
+    margin: auto;
+    flex: 1 1 auto;
+    width: 100%;
+    height: 100%;
+} 
 
 .templeSection picture img {
     width: 100%;
@@ -406,6 +422,28 @@ footer hr {
 
 .stretchOn {
     max-height: 100%;
+}
+
+.likeForm {
+    position: absolute;
+    bottom: 30px;
+    left: 35px;
+}
+
+.likeForm button {
+    width: 55px;
+    height: 40px;
+    background-color: rgb(233,120,75, .8);
+    color: #fff;
+    text-shadow: 0 0 10px #33291F;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.favoritedStar {
+    position: absolute;
+    top: 20px;
+    right: 20px;
 }
 
 .servicesCollection {
@@ -467,11 +505,3 @@ footer hr {
     display: block;
 }
 
-/* nav ul {display: none;}
-nav ul.appear {display: block; order: 1;}
-
-#collapsingBtn span:nth-child(1) {display: block;}
-#collapsingBtn span:nth-child(2) {display: none;}
-
-#collapsingBtn.open span:nth-child(1) {display: none;}
-#collapsingBtn.open span:nth-child(2) {display: block;} */
