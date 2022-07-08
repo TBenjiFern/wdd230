@@ -19,7 +19,6 @@
 </head>
 
 <body>
-
     <header>
         <figure class="logoWrapper">
             <a href="#">
@@ -32,9 +31,9 @@
                 <button id="collapsingBtn" class="collapsingBtn"><span>&#9776;</span><span>X</span></button>
                 <nav class="navBar">
                     <ul id="naviLinks" class="naviLinks">
-                        <li class="navi naviTemples"><a href="#">Temples</a></li>
-                        <li class="navi naviReserve"><a href="#">Reservations</a></li>
-                        <li class="navi naviService"><a href="#">Services</a></li>
+                        <li class="navi naviTemples"><a href="temples/">Temples</a></li>
+                        <li class="navi naviReserve"><a href="reservations/">Reservations</a></li>
+                        <li class="navi naviService"><a href="services/">Services</a></li>
                     </ul>
                 </nav>
                 <figure class="socialMediaLink">
@@ -44,6 +43,21 @@
                             alt="Instagram link button" width="50" height="50"></a>
                 </figure>
             </section>
+        </section>
+        <section id="alert" class="alert">
+            <div>
+                <button id="alertCollapsingBtn" class="alertCollapsingBtn"><span>X</span></button>
+                <h2>Alert From <span id="alertSender">NWS Tulsa</span></h2>
+            </div>
+            <p><strong>Event: </strong><span id="alertEvent">Heat Advisory</span> <br><strong>Start: </strong>
+                <span id="alertStart">1597341600</span> <br><strong>End: </strong><span id="alertEnd">1597366800</span>
+            </p>
+            <p><strong>Description: </strong><span id="alertDescription">HEAT ADVISORY REMAINS IN EFFECT FROM 1 PM THIS
+                    AFTERNOON
+                    TO\n8 PM CDT THIS EVENING...\n* WHAT...Heat index values of 105 to 109 degrees expected.
+                    \n* WHERE...Creek, Okfuskee, Okmulgee, McIntosh, Pittsburg,\nLatimer, Pushmataha, and
+                    Choctaw Counties.\n* WHEN...From 1 PM to 8 PM CDT Thursday.\n* IMPACTS...The combination of
+                    hot temperatures and high\nhumidity will combine to create a dangerous situation in which</span></p>
         </section>
     </header>
 
@@ -67,9 +81,8 @@
             <picture class="spotlightTempleWrapper">
                 <img class="spotlightTempleImg" srcset="images/sapporo_temple_400x.webp 400w, 
                                                         images/sapporo_temple_1000x.webp 1000w"
-                                                sizes="(max-width: 1200px) 100vw, 50vw" 
-                    src="images/sapporo_temple_1000x.webp" alt="Sapporo, Japan Temple"
-                    width="400" height="296" loading="lazy">
+                    sizes="(max-width: 1200px) 100vw, 50vw" src="images/sapporo_temple_1000x.webp"
+                    alt="Sapporo, Japan Temple" width="400" height="296" loading="lazy">
             </picture>
         </figure>
 
@@ -107,8 +120,8 @@
         </section>
 
         <section class="todayWeather mainSection">
-            <h2>Sapporo, Japan<br>Today's Weather</h2>
-            <img id="todayWeatherImg" src="#" alt="Today's Weather in Sapporo Japan">
+            <h2>Las Vegas, NV<br>Today's Weather</h2>
+            <img id="todayWeatherImg" src="#" alt="Today's Weather in Las Vegas, NV">
             <p><span id="todayWeatherDescription"></span></p>
             <p><strong>Temperature:</strong> <span id="todayTemp">50</span>&#176;F</p>
             <p><strong>Humidity:</strong> <span id="todayHumidity">10</span>%</p>
@@ -116,22 +129,22 @@
 
         <section class="threeDayForecast mainSection">
             <article class="dayOneForecast">
-                <h2>Sapporo, Japan<br><span id="dayOneDay"></span> Weather</h2>
-                <img id="oneWeatherImg" src="#" alt="Today's Weather in Sapporo Japan">
+                <h2>Las Vegas, NV<br><span id="dayOneDay"></span> Weather</h2>
+                <img id="oneWeatherImg" src="#" alt="Today's Weather in Las Vegas, NV">
                 <p><span id="oneWeatherDescription"></span></p>
                 <p><strong>Temperature:</strong> <span id="dayOneTemp">50</span>&#176;F</p>
                 <p><strong>Humidity:</strong> <span id="dayOneHumidity">10</span>%</p>
             </article>
             <article class="dayTwoForecast">
-                <h2>Sapporo, Japan<br><span id="dayTwoDay"></span> Weather</h2>
-                <img id="twoWeatherImg" src="#" alt="Today's Weather in Sapporo Japan">
+                <h2>Las Vegas, NV<br><span id="dayTwoDay"></span> Weather</h2>
+                <img id="twoWeatherImg" src="#" alt="Today's Weather in Las Vegas, NV">
                 <p><span id="twoWeatherDescription"></span></p>
                 <p><strong>Temperature:</strong> <span id="dayTwoTemp">50</span>&#176;F</p>
                 <p><strong>Humidity:</strong> <span id="dayTwoHumidity">10</span>%</p>
             </article>
             <article class="dayThreeForecast">
-                <h2>Sapporo, Japan<br><span id="dayThreeDay"></span> Weather</h2>
-                <img id="threeWeatherImg" src="#" alt="Today's Weather in Sapporo Japan">
+                <h2>Las Vegas, NV<br><span id="dayThreeDay"></span> Weather</h2>
+                <img id="threeWeatherImg" src="#" alt="Today's Weather in Las Vegas, NV">
                 <p><span id="threeWeatherDescription"></span></p>
                 <p><strong>Temperature:</strong> <span id="dayThreeTemp">50</span>&#176;F</p>
                 <p><strong>Humidity:</strong> <span id="dayThreeHumidity">10</span>%</p>
@@ -162,7 +175,8 @@
                     href="contact-us/">Google Maps</a></p>
             <hr>
             <p>4800 Montgomery Ln #300, Bethesda, MD 20814</p>
-            <p>&copy;<span id="currentYear"></span> - Benjamin Fernelius - Last Modified: <span id="updateDate"></span></p>
+            <p>&copy;<span id="currentYear"></span> - Benjamin Fernelius - Last Modified: <span id="updateDate"></span>
+            </p>
         </div>
 
     </footer>

@@ -1,0 +1,1420 @@
+[{
+        "name" : "Fukuoka Japan Temple",
+        "image": "../images/fukuoka_temple_400x.webp",
+        "address": "9-15 Hirao Johsui Machi Chuo-ku Fukuoka-shi, Fukuoka, 810-0029, Japan",
+        "phone": "(81) 92-525-8255",
+        "email": "N/A",
+        "services": [{
+                "service": "No clothing rental available"
+            },
+            {
+                "service": "No cafeteria available"
+            },
+            {
+                "service": "Patron housing available"
+            },
+            {
+                "service": "No distribution center nearby"
+            }
+        ],
+        "history": "The Fukuoka Japan Temple was the second temple built in Japan, following the Tokyo Japan Temple (1980). The site of the Fukuoka Japan Temple was acquired when the area was remote and accessible only by an unpaved road. A former restaurant on site served as meetinghouse, which was joined by a mission home a few years later. The buildings were razed to make way for the temple. A traditional meetinghouse now serves members just a few blocks away. The public open house of the Fukuoka Japan Temple lasted just three days and attracted more than 4,800 visitors. President Gordon B. Hinckley, who oversaw Church affairs in Asia in the 1960s, was visibly emotional during the dedicatory services of the Fukuoka Japan Temple, noting that it would probably be his last time in Fukuoka.",
+        "ordinance_schedule": {
+            "baptism": "7:30 a.m. - 8:00 p.m.",
+            "initiatory": "7:30 a.m. - 8:00 p.m.",
+            "endowment": "7:30 a.m. - 7:45 p.m.",
+            "sealing": "7:30 a.m. - 8:00 p.m."
+        },
+        "session_schedule": {
+            "baptism": {
+                "sessions": [{
+                        "time": "7:30 a.m."
+                    },
+                    {
+                        "time": "8:00 a.m."
+                    },
+                    {
+                        "time": "8:30 a.m."
+                    },
+                    {
+                        "time": "9:00 a.m."
+                    },
+                    {
+                        "time": "9:30 a.m."
+                    },
+                    {
+                        "time": "10:00 a.m."
+                    },
+                    {
+                        "time": "10:30 a.m."
+                    },
+                    {
+                        "time": "11:00 a.m."
+                    },
+                    {
+                        "time": "11:30 a.m."
+                    },
+                    {
+                        "time": "12:00 p.m."
+                    },
+                    {
+                        "time": "12:30 p.m."
+                    },
+                    {
+                        "time": "1:00 p.m."
+                    },
+                    {
+                        "time": "1:30 p.m."
+                    },
+                    {
+                        "time": "2:00 p.m."
+                    },
+                    {
+                        "time": "2:30 p.m."
+                    },
+                    {
+                        "time": "3:00 p.m."
+                    },
+                    {
+                        "time": "3:30 p.m."
+                    },
+                    {
+                        "time": "4:00 p.m."
+                    },
+                    {
+                        "time": "4:30 p.m."
+                    },
+                    {
+                        "time": "5:00 p.m."
+                    },
+                    {
+                        "time": "5:30 p.m."
+                    },
+                    {
+                        "time": "6:00 p.m."
+                    },
+                    {
+                        "time": "6:30 p.m."
+                    },
+                    {
+                        "time": "7:00 p.m."
+                    },
+                    {
+                        "time": "7:30 p.m."
+                    }
+                ]
+            },
+            "initiatory": {
+                "sessions": [{
+                        "time": "7:30 a.m."
+                    },
+                    {
+                        "time": "8:00 a.m."
+                    },
+                    {
+                        "time": "8:30 a.m."
+                    },
+                    {
+                        "time": "9:00 a.m."
+                    },
+                    {
+                        "time": "9:30 a.m."
+                    },
+                    {
+                        "time": "10:00 a.m."
+                    },
+                    {
+                        "time": "10:30 a.m."
+                    },
+                    {
+                        "time": "11:00 a.m."
+                    },
+                    {
+                        "time": "11:30 a.m."
+                    },
+                    {
+                        "time": "12:00 p.m."
+                    },
+                    {
+                        "time": "12:30 p.m."
+                    },
+                    {
+                        "time": "1:00 p.m."
+                    },
+                    {
+                        "time": "1:30 p.m."
+                    },
+                    {
+                        "time": "2:00 p.m."
+                    },
+                    {
+                        "time": "2:30 p.m."
+                    },
+                    {
+                        "time": "3:00 p.m."
+                    },
+                    {
+                        "time": "3:30 p.m."
+                    },
+                    {
+                        "time": "4:00 p.m."
+                    },
+                    {
+                        "time": "4:30 p.m."
+                    },
+                    {
+                        "time": "5:00 p.m."
+                    },
+                    {
+                        "time": "5:30 p.m."
+                    },
+                    {
+                        "time": "6:00 p.m."
+                    },
+                    {
+                        "time": "6:30 p.m."
+                    },
+                    {
+                        "time": "7:00 p.m."
+                    },
+                    {
+                        "time": "7:30 p.m."
+                    }
+                ]
+            },
+            "endowment" : {
+                "sessions" : [{
+                    "time" : "7:30 a.m."
+                },
+                {
+                    "time" : "8:00 a.m."
+                },
+                {
+                    "time" : "8:30 a.m."
+                },
+                {
+                    "time" : "9:00 a.m."
+                },
+                {
+                    "time" : "9:30 a.m."
+                },
+                {
+                    "time" : "10:00 a.m."
+                },
+                {
+                    "time" : "10:30 a.m."
+                },
+                {
+                    "time" : "11:00 a.m."
+                },
+                {
+                    "time" : "11:30 a.m."
+                },
+                {
+                    "time" : "12:00 p.m."
+                },
+                {
+                    "time" : "12:30 p.m."
+                },
+                {
+                    "time" : "1:00 p.m."
+                },
+                {
+                    "time" : "1:30 p.m."
+                },
+                {
+                    "time" : "2:00 p.m."
+                },
+                {
+                    "time" : "2:30 p.m."
+                },
+                {
+                    "time" : "3:00 p.m."
+                },
+                {
+                    "time" : "3:30 p.m."
+                },
+                {
+                    "time" : "4:00 p.m."
+                },
+                {
+                    "time" : "4:30 p.m."
+                },
+                {
+                    "time" : "5:00 p.m."
+                },
+                {
+                    "time" : "5:30 p.m."
+                },
+                {
+                    "time" : "6:00 p.m."
+                },
+                {
+                    "time" : "6:30 p.m."
+                },
+                {
+                    "time" : "7:00 p.m."
+                },
+                {
+                    "time" : "7:30 p.m."
+                },
+                {
+                    "time" : "7:45 p.m."
+                }
+            ]
+        },
+        "sealing": {
+            "sessions": [{
+                    "time": "7:30 a.m."
+                },
+                {
+                    "time": "8:00 a.m."
+                },
+                {
+                    "time": "8:30 a.m."
+                },
+                {
+                    "time": "9:00 a.m."
+                },
+                {
+                    "time": "9:30 a.m."
+                },
+                {
+                    "time": "10:00 a.m."
+                },
+                {
+                    "time": "10:30 a.m."
+                },
+                {
+                    "time": "11:00 a.m."
+                },
+                {
+                    "time": "11:30 a.m."
+                },
+                {
+                    "time": "12:00 p.m."
+                },
+                {
+                    "time": "12:30 p.m."
+                },
+                {
+                    "time": "1:00 p.m."
+                },
+                {
+                    "time": "1:30 p.m."
+                },
+                {
+                    "time": "2:00 p.m."
+                },
+                {
+                    "time": "2:30 p.m."
+                },
+                {
+                    "time": "3:00 p.m."
+                },
+                {
+                    "time": "3:30 p.m."
+                },
+                {
+                    "time": "4:00 p.m."
+                },
+                {
+                    "time": "4:30 p.m."
+                },
+                {
+                    "time": "5:00 p.m."
+                },
+                {
+                    "time": "5:30 p.m."
+                },
+                {
+                    "time": "6:00 p.m."
+                },
+                {
+                    "time": "6:30 p.m."
+                },
+                {
+                    "time": "7:00 p.m."
+                },
+                {
+                    "time": "7:30 p.m."
+                }
+            ]
+        }
+    },
+        "closure_schedule": [{
+                "closed": "Monday, 1 August 2022 - Wednesday, 30 November 2022"
+            },
+            {
+                "closed": "Saturday, 24 December 2022"
+            },
+            {
+                "closed": "Friday, 30 December 2022 (Limited Operations)"
+            },
+            {
+                "closed": "Saturday, 31 December 2022"
+            }
+        ]
+    },
+    {
+        "name" : "Sapporo Japan Temple",
+        "image": "../images/sapporo_temple_night_400x.webp",
+        "address": "1-6-1 Oyachi-Nishi Atsubetsu-ku Sapporo, Hokkaido 004-0042, Japan",
+        "phone": "(81) 11-890-8120",
+        "email": "N/A",
+        "services": [{
+                "service": "No clothing rental available"
+            },
+            {
+                "service": "No cafeteria available"
+            },
+            {
+                "service": "Patron housing available"
+            },
+            {
+                "service": "Distribution center nearby"
+            }
+        ],
+        "history": "Missionaries of the Church first arrived in Sapporo in 1905. By 1924, the mission had closed, leaving behind a handful of members—most of whom could not be located following World War II. When the mission reopened in 1948, missionaries returned to Hokkaidō, and the Church began to grow. As early as the 1960s, Hokkaidō members held to a belief that a temple would be built among them one day as described at the groundbreaking ceremony by Elder Koichi Aoyagi in a reflection of his own missionary experience there: \"I was a missionary here in Hokkaidō 46 years ago. The members in the Sapporo Branch back then said to me, 'Someday we will build a temple in Sapporo.' I am happy that this day has come.\"",
+        "ordinance_schedule": {
+            "baptism": "7:30 a.m. - 8:00 p.m.",
+            "initiatory": "7:30 a.m. - 8:00 p.m.",
+            "endowment": "7:30 a.m. - 7:45 p.m.",
+            "sealing": "7:30 a.m. - 8:00 p.m."
+        },
+        "session_schedule": {
+            "baptism": {
+                "sessions": [{
+                        "time": "7:30 a.m."
+                    },
+                    {
+                        "time": "8:00 a.m."
+                    },
+                    {
+                        "time": "8:30 a.m."
+                    },
+                    {
+                        "time": "9:00 a.m."
+                    },
+                    {
+                        "time": "9:30 a.m."
+                    },
+                    {
+                        "time": "10:00 a.m."
+                    },
+                    {
+                        "time": "10:30 a.m."
+                    },
+                    {
+                        "time": "11:00 a.m."
+                    },
+                    {
+                        "time": "11:30 a.m."
+                    },
+                    {
+                        "time": "12:00 p.m."
+                    },
+                    {
+                        "time": "12:30 p.m."
+                    },
+                    {
+                        "time": "1:00 p.m."
+                    },
+                    {
+                        "time": "1:30 p.m."
+                    },
+                    {
+                        "time": "2:00 p.m."
+                    },
+                    {
+                        "time": "2:30 p.m."
+                    },
+                    {
+                        "time": "3:00 p.m."
+                    },
+                    {
+                        "time": "3:30 p.m."
+                    },
+                    {
+                        "time": "4:00 p.m."
+                    },
+                    {
+                        "time": "4:30 p.m."
+                    },
+                    {
+                        "time": "5:00 p.m."
+                    },
+                    {
+                        "time": "5:30 p.m."
+                    },
+                    {
+                        "time": "6:00 p.m."
+                    },
+                    {
+                        "time": "6:30 p.m."
+                    },
+                    {
+                        "time": "7:00 p.m."
+                    },
+                    {
+                        "time": "7:30 p.m."
+                    }
+                ]
+            },
+            "initiatory": {
+                "sessions": [{
+                        "time": "7:30 a.m."
+                    },
+                    {
+                        "time": "8:00 a.m."
+                    },
+                    {
+                        "time": "8:30 a.m."
+                    },
+                    {
+                        "time": "9:00 a.m."
+                    },
+                    {
+                        "time": "9:30 a.m."
+                    },
+                    {
+                        "time": "10:00 a.m."
+                    },
+                    {
+                        "time": "10:30 a.m."
+                    },
+                    {
+                        "time": "11:00 a.m."
+                    },
+                    {
+                        "time": "11:30 a.m."
+                    },
+                    {
+                        "time": "12:00 p.m."
+                    },
+                    {
+                        "time": "12:30 p.m."
+                    },
+                    {
+                        "time": "1:00 p.m."
+                    },
+                    {
+                        "time": "1:30 p.m."
+                    },
+                    {
+                        "time": "2:00 p.m."
+                    },
+                    {
+                        "time": "2:30 p.m."
+                    },
+                    {
+                        "time": "3:00 p.m."
+                    },
+                    {
+                        "time": "3:30 p.m."
+                    },
+                    {
+                        "time": "4:00 p.m."
+                    },
+                    {
+                        "time": "4:30 p.m."
+                    },
+                    {
+                        "time": "5:00 p.m."
+                    },
+                    {
+                        "time": "5:30 p.m."
+                    },
+                    {
+                        "time": "6:00 p.m."
+                    },
+                    {
+                        "time": "6:30 p.m."
+                    },
+                    {
+                        "time": "7:00 p.m."
+                    },
+                    {
+                        "time": "7:30 p.m."
+                    }
+                ]
+            },
+            "endowment" : {
+                "sessions" : [{
+                    "time" : "7:30 a.m."
+                },
+                {
+                    "time" : "8:00 a.m."
+                },
+                {
+                    "time" : "8:30 a.m."
+                },
+                {
+                    "time" : "9:00 a.m."
+                },
+                {
+                    "time" : "9:30 a.m."
+                },
+                {
+                    "time" : "10:00 a.m."
+                },
+                {
+                    "time" : "10:30 a.m."
+                },
+                {
+                    "time" : "11:00 a.m."
+                },
+                {
+                    "time" : "11:30 a.m."
+                },
+                {
+                    "time" : "12:00 p.m."
+                },
+                {
+                    "time" : "12:30 p.m."
+                },
+                {
+                    "time" : "1:00 p.m."
+                },
+                {
+                    "time" : "1:30 p.m."
+                },
+                {
+                    "time" : "2:00 p.m."
+                },
+                {
+                    "time" : "2:30 p.m."
+                },
+                {
+                    "time" : "3:00 p.m."
+                },
+                {
+                    "time" : "3:30 p.m."
+                },
+                {
+                    "time" : "4:00 p.m."
+                },
+                {
+                    "time" : "4:30 p.m."
+                },
+                {
+                    "time" : "5:00 p.m."
+                },
+                {
+                    "time" : "5:30 p.m."
+                },
+                {
+                    "time" : "6:00 p.m."
+                },
+                {
+                    "time" : "6:30 p.m."
+                },
+                {
+                    "time" : "7:00 p.m."
+                },
+                {
+                    "time" : "7:30 p.m."
+                },
+                {
+                    "time" : "7:45 p.m."
+                }
+            ]
+        },
+        "sealing": {
+            "sessions": [{
+                    "time": "7:30 a.m."
+                },
+                {
+                    "time": "8:00 a.m."
+                },
+                {
+                    "time": "8:30 a.m."
+                },
+                {
+                    "time": "9:00 a.m."
+                },
+                {
+                    "time": "9:30 a.m."
+                },
+                {
+                    "time": "10:00 a.m."
+                },
+                {
+                    "time": "10:30 a.m."
+                },
+                {
+                    "time": "11:00 a.m."
+                },
+                {
+                    "time": "11:30 a.m."
+                },
+                {
+                    "time": "12:00 p.m."
+                },
+                {
+                    "time": "12:30 p.m."
+                },
+                {
+                    "time": "1:00 p.m."
+                },
+                {
+                    "time": "1:30 p.m."
+                },
+                {
+                    "time": "2:00 p.m."
+                },
+                {
+                    "time": "2:30 p.m."
+                },
+                {
+                    "time": "3:00 p.m."
+                },
+                {
+                    "time": "3:30 p.m."
+                },
+                {
+                    "time": "4:00 p.m."
+                },
+                {
+                    "time": "4:30 p.m."
+                },
+                {
+                    "time": "5:00 p.m."
+                },
+                {
+                    "time": "5:30 p.m."
+                },
+                {
+                    "time": "6:00 p.m."
+                },
+                {
+                    "time": "6:30 p.m."
+                },
+                {
+                    "time": "7:00 p.m."
+                },
+                {
+                    "time": "7:30 p.m."
+                }
+            ]
+        }
+    },
+        "closure_schedule": [{
+                "closed": "Monday, 5 September 2022 - Monday, 19 September 2022"
+            },
+            {
+                "closed": "Friday, 23 September 2022 (Limited Operations)"
+            },
+            {
+                "closed": "Saturday, 8 October 2022"
+            },
+            {
+                "closed": "Saturday, 24 December 2022"
+            },
+            {
+                "closed": "Saturday, 31 December 2022"
+            }
+        ]
+    },
+    {
+        "name" : "Tokyo Japan Temple",
+        "image": "../images/tokyo_temple_400x.webp",
+        "address": "5-8-10 Minami Azabu Minato-ku, Tokyo 106-0047, Japan",
+        "phone": "(81) 3-4545-3000",
+        "email": "N/A",
+        "services": [{
+                "service": "Clothing rental available"
+            },
+            {
+                "service": "No cafeteria available"
+            },
+            {
+                "service": "Patron housing available"
+            },
+            {
+                "service": "Distribution center nearby"
+            }
+        ],
+        "history": "On Sunday, July 17, 1949, Elder Matthew Cowley made the first prophecy regarding the Tokyo Japan Temple at the dedicatory services for the old Tokyo mission home—the site where the temple now stands. Elder Harrison Ted Price, a missionary serving in the Northern Far East Mission, recorded in his journal: \"In this prayer, he told of countless blessings from the Lord that have been enjoyed here to date, and went on to prophesy—'there will someday be many church buildings—and even TEMPLES built in the land.'\"",
+        "ordinance_schedule": {
+            "baptism": "7:30 a.m. - 8:00 p.m.",
+            "initiatory": "7:30 a.m. - 8:00 p.m.",
+            "endowment": "7:30 a.m. - 7:45 p.m.",
+            "sealing": "7:30 a.m. - 8:00 p.m."
+        },
+        "session_schedule": {
+            "baptism": {
+                "sessions": [{
+                        "time": "7:30 a.m."
+                    },
+                    {
+                        "time": "8:00 a.m."
+                    },
+                    {
+                        "time": "8:30 a.m."
+                    },
+                    {
+                        "time": "9:00 a.m."
+                    },
+                    {
+                        "time": "9:30 a.m."
+                    },
+                    {
+                        "time": "10:00 a.m."
+                    },
+                    {
+                        "time": "10:30 a.m."
+                    },
+                    {
+                        "time": "11:00 a.m."
+                    },
+                    {
+                        "time": "11:30 a.m."
+                    },
+                    {
+                        "time": "12:00 p.m."
+                    },
+                    {
+                        "time": "12:30 p.m."
+                    },
+                    {
+                        "time": "1:00 p.m."
+                    },
+                    {
+                        "time": "1:30 p.m."
+                    },
+                    {
+                        "time": "2:00 p.m."
+                    },
+                    {
+                        "time": "2:30 p.m."
+                    },
+                    {
+                        "time": "3:00 p.m."
+                    },
+                    {
+                        "time": "3:30 p.m."
+                    },
+                    {
+                        "time": "4:00 p.m."
+                    },
+                    {
+                        "time": "4:30 p.m."
+                    },
+                    {
+                        "time": "5:00 p.m."
+                    },
+                    {
+                        "time": "5:30 p.m."
+                    },
+                    {
+                        "time": "6:00 p.m."
+                    },
+                    {
+                        "time": "6:30 p.m."
+                    },
+                    {
+                        "time": "7:00 p.m."
+                    },
+                    {
+                        "time": "7:30 p.m."
+                    }
+                ]
+            },
+            "initiatory": {
+                "sessions": [{
+                        "time": "7:30 a.m."
+                    },
+                    {
+                        "time": "8:00 a.m."
+                    },
+                    {
+                        "time": "8:30 a.m."
+                    },
+                    {
+                        "time": "9:00 a.m."
+                    },
+                    {
+                        "time": "9:30 a.m."
+                    },
+                    {
+                        "time": "10:00 a.m."
+                    },
+                    {
+                        "time": "10:30 a.m."
+                    },
+                    {
+                        "time": "11:00 a.m."
+                    },
+                    {
+                        "time": "11:30 a.m."
+                    },
+                    {
+                        "time": "12:00 p.m."
+                    },
+                    {
+                        "time": "12:30 p.m."
+                    },
+                    {
+                        "time": "1:00 p.m."
+                    },
+                    {
+                        "time": "1:30 p.m."
+                    },
+                    {
+                        "time": "2:00 p.m."
+                    },
+                    {
+                        "time": "2:30 p.m."
+                    },
+                    {
+                        "time": "3:00 p.m."
+                    },
+                    {
+                        "time": "3:30 p.m."
+                    },
+                    {
+                        "time": "4:00 p.m."
+                    },
+                    {
+                        "time": "4:30 p.m."
+                    },
+                    {
+                        "time": "5:00 p.m."
+                    },
+                    {
+                        "time": "5:30 p.m."
+                    },
+                    {
+                        "time": "6:00 p.m."
+                    },
+                    {
+                        "time": "6:30 p.m."
+                    },
+                    {
+                        "time": "7:00 p.m."
+                    },
+                    {
+                        "time": "7:30 p.m."
+                    }
+                ]
+            },
+            "endowment" : {
+                "sessions" : [{
+                    "time" : "7:30 a.m."
+                },
+                {
+                    "time" : "8:00 a.m."
+                },
+                {
+                    "time" : "8:30 a.m."
+                },
+                {
+                    "time" : "9:00 a.m."
+                },
+                {
+                    "time" : "9:30 a.m."
+                },
+                {
+                    "time" : "10:00 a.m."
+                },
+                {
+                    "time" : "10:30 a.m."
+                },
+                {
+                    "time" : "11:00 a.m."
+                },
+                {
+                    "time" : "11:30 a.m."
+                },
+                {
+                    "time" : "12:00 p.m."
+                },
+                {
+                    "time" : "12:30 p.m."
+                },
+                {
+                    "time" : "1:00 p.m."
+                },
+                {
+                    "time" : "1:30 p.m."
+                },
+                {
+                    "time" : "2:00 p.m."
+                },
+                {
+                    "time" : "2:30 p.m."
+                },
+                {
+                    "time" : "3:00 p.m."
+                },
+                {
+                    "time" : "3:30 p.m."
+                },
+                {
+                    "time" : "4:00 p.m."
+                },
+                {
+                    "time" : "4:30 p.m."
+                },
+                {
+                    "time" : "5:00 p.m."
+                },
+                {
+                    "time" : "5:30 p.m."
+                },
+                {
+                    "time" : "6:00 p.m."
+                },
+                {
+                    "time" : "6:30 p.m."
+                },
+                {
+                    "time" : "7:00 p.m."
+                },
+                {
+                    "time" : "7:30 p.m."
+                },
+                {
+                    "time" : "7:45 p.m."
+                }
+            ]
+        },
+        "sealing": {
+            "sessions": [{
+                    "time": "7:30 a.m."
+                },
+                {
+                    "time": "8:00 a.m."
+                },
+                {
+                    "time": "8:30 a.m."
+                },
+                {
+                    "time": "9:00 a.m."
+                },
+                {
+                    "time": "9:30 a.m."
+                },
+                {
+                    "time": "10:00 a.m."
+                },
+                {
+                    "time": "10:30 a.m."
+                },
+                {
+                    "time": "11:00 a.m."
+                },
+                {
+                    "time": "11:30 a.m."
+                },
+                {
+                    "time": "12:00 p.m."
+                },
+                {
+                    "time": "12:30 p.m."
+                },
+                {
+                    "time": "1:00 p.m."
+                },
+                {
+                    "time": "1:30 p.m."
+                },
+                {
+                    "time": "2:00 p.m."
+                },
+                {
+                    "time": "2:30 p.m."
+                },
+                {
+                    "time": "3:00 p.m."
+                },
+                {
+                    "time": "3:30 p.m."
+                },
+                {
+                    "time": "4:00 p.m."
+                },
+                {
+                    "time": "4:30 p.m."
+                },
+                {
+                    "time": "5:00 p.m."
+                },
+                {
+                    "time": "5:30 p.m."
+                },
+                {
+                    "time": "6:00 p.m."
+                },
+                {
+                    "time": "6:30 p.m."
+                },
+                {
+                    "time": "7:00 p.m."
+                },
+                {
+                    "time": "7:30 p.m."
+                }
+            ]
+        }
+    },
+        "closure_schedule": [{
+                "closed": "Saturday, 24 September 2022"
+            },
+            {
+                "closed": "Saturday, 8 October 2022"
+            },
+            {
+                "closed": "Saturday, 8 April 2023"
+            }
+        ]
+    },
+    {
+        "name" : "St. George Utah Temple",
+        "image": "../images/st_george_temple_400x.webp",
+        "address": "250 E 400 S St George UT 84770-3699 United States",
+        "phone": "(+1) 435-673-3533",
+        "email": "N/A",
+        "services": [{
+                "service": "Clothing rental available"
+            },
+            {
+                "service": "No cafeteria available"
+            },
+            {
+                "service": "Patron housing available"
+            },
+            {
+                "service": "Distribution center nearby"
+            }
+        ],
+        "history": "The St. George Utah Temple is the longest operating temple of the Church and was the first built in Utah. The St. George Utah Temple was originally named the St. George Temple. The St. George Utah Temple is the first temple where endowments for the dead were performed. The St. George Utah Temple is the only temple completed during Brigham Young's 30-year tenure as president of the Church. He purchased a winter home in the city and visited the temple site as often as possible during its construction. He gave frequent direction and stayed informed of the progress by telegram or letter when staying in Salt Lake City.",
+        "ordinance_schedule": {
+            "baptism": "7:30 a.m. - 8:00 p.m.",
+            "initiatory": "7:30 a.m. - 8:00 p.m.",
+            "endowment": "7:30 a.m. - 7:45 p.m.",
+            "sealing": "7:30 a.m. - 8:00 p.m."
+        },
+        "session_schedule": {
+            "baptism": {
+                "sessions": [{
+                        "time": "7:30 a.m."
+                    },
+                    {
+                        "time": "8:00 a.m."
+                    },
+                    {
+                        "time": "8:30 a.m."
+                    },
+                    {
+                        "time": "9:00 a.m."
+                    },
+                    {
+                        "time": "9:30 a.m."
+                    },
+                    {
+                        "time": "10:00 a.m."
+                    },
+                    {
+                        "time": "10:30 a.m."
+                    },
+                    {
+                        "time": "11:00 a.m."
+                    },
+                    {
+                        "time": "11:30 a.m."
+                    },
+                    {
+                        "time": "12:00 p.m."
+                    },
+                    {
+                        "time": "12:30 p.m."
+                    },
+                    {
+                        "time": "1:00 p.m."
+                    },
+                    {
+                        "time": "1:30 p.m."
+                    },
+                    {
+                        "time": "2:00 p.m."
+                    },
+                    {
+                        "time": "2:30 p.m."
+                    },
+                    {
+                        "time": "3:00 p.m."
+                    },
+                    {
+                        "time": "3:30 p.m."
+                    },
+                    {
+                        "time": "4:00 p.m."
+                    },
+                    {
+                        "time": "4:30 p.m."
+                    },
+                    {
+                        "time": "5:00 p.m."
+                    },
+                    {
+                        "time": "5:30 p.m."
+                    },
+                    {
+                        "time": "6:00 p.m."
+                    },
+                    {
+                        "time": "6:30 p.m."
+                    },
+                    {
+                        "time": "7:00 p.m."
+                    },
+                    {
+                        "time": "7:30 p.m."
+                    }
+                ]
+            },
+            "initiatory": {
+                "sessions": [{
+                        "time": "7:30 a.m."
+                    },
+                    {
+                        "time": "8:00 a.m."
+                    },
+                    {
+                        "time": "8:30 a.m."
+                    },
+                    {
+                        "time": "9:00 a.m."
+                    },
+                    {
+                        "time": "9:30 a.m."
+                    },
+                    {
+                        "time": "10:00 a.m."
+                    },
+                    {
+                        "time": "10:30 a.m."
+                    },
+                    {
+                        "time": "11:00 a.m."
+                    },
+                    {
+                        "time": "11:30 a.m."
+                    },
+                    {
+                        "time": "12:00 p.m."
+                    },
+                    {
+                        "time": "12:30 p.m."
+                    },
+                    {
+                        "time": "1:00 p.m."
+                    },
+                    {
+                        "time": "1:30 p.m."
+                    },
+                    {
+                        "time": "2:00 p.m."
+                    },
+                    {
+                        "time": "2:30 p.m."
+                    },
+                    {
+                        "time": "3:00 p.m."
+                    },
+                    {
+                        "time": "3:30 p.m."
+                    },
+                    {
+                        "time": "4:00 p.m."
+                    },
+                    {
+                        "time": "4:30 p.m."
+                    },
+                    {
+                        "time": "5:00 p.m."
+                    },
+                    {
+                        "time": "5:30 p.m."
+                    },
+                    {
+                        "time": "6:00 p.m."
+                    },
+                    {
+                        "time": "6:30 p.m."
+                    },
+                    {
+                        "time": "7:00 p.m."
+                    },
+                    {
+                        "time": "7:30 p.m."
+                    }
+                ]
+            },
+            "endowment" : {
+                "sessions" : [{
+                    "time" : "7:30 a.m."
+                },
+                {
+                    "time" : "8:00 a.m."
+                },
+                {
+                    "time" : "8:30 a.m."
+                },
+                {
+                    "time" : "9:00 a.m."
+                },
+                {
+                    "time" : "9:30 a.m."
+                },
+                {
+                    "time" : "10:00 a.m."
+                },
+                {
+                    "time" : "10:30 a.m."
+                },
+                {
+                    "time" : "11:00 a.m."
+                },
+                {
+                    "time" : "11:30 a.m."
+                },
+                {
+                    "time" : "12:00 p.m."
+                },
+                {
+                    "time" : "12:30 p.m."
+                },
+                {
+                    "time" : "1:00 p.m."
+                },
+                {
+                    "time" : "1:30 p.m."
+                },
+                {
+                    "time" : "2:00 p.m."
+                },
+                {
+                    "time" : "2:30 p.m."
+                },
+                {
+                    "time" : "3:00 p.m."
+                },
+                {
+                    "time" : "3:30 p.m."
+                },
+                {
+                    "time" : "4:00 p.m."
+                },
+                {
+                    "time" : "4:30 p.m."
+                },
+                {
+                    "time" : "5:00 p.m."
+                },
+                {
+                    "time" : "5:30 p.m."
+                },
+                {
+                    "time" : "6:00 p.m."
+                },
+                {
+                    "time" : "6:30 p.m."
+                },
+                {
+                    "time" : "7:00 p.m."
+                },
+                {
+                    "time" : "7:30 p.m."
+                },
+                {
+                    "time" : "7:45 p.m."
+                }
+            ]
+        },
+        "sealing": {
+            "sessions": [{
+                    "time": "7:30 a.m."
+                },
+                {
+                    "time": "8:00 a.m."
+                },
+                {
+                    "time": "8:30 a.m."
+                },
+                {
+                    "time": "9:00 a.m."
+                },
+                {
+                    "time": "9:30 a.m."
+                },
+                {
+                    "time": "10:00 a.m."
+                },
+                {
+                    "time": "10:30 a.m."
+                },
+                {
+                    "time": "11:00 a.m."
+                },
+                {
+                    "time": "11:30 a.m."
+                },
+                {
+                    "time": "12:00 p.m."
+                },
+                {
+                    "time": "12:30 p.m."
+                },
+                {
+                    "time": "1:00 p.m."
+                },
+                {
+                    "time": "1:30 p.m."
+                },
+                {
+                    "time": "2:00 p.m."
+                },
+                {
+                    "time": "2:30 p.m."
+                },
+                {
+                    "time": "3:00 p.m."
+                },
+                {
+                    "time": "3:30 p.m."
+                },
+                {
+                    "time": "4:00 p.m."
+                },
+                {
+                    "time": "4:30 p.m."
+                },
+                {
+                    "time": "5:00 p.m."
+                },
+                {
+                    "time": "5:30 p.m."
+                },
+                {
+                    "time": "6:00 p.m."
+                },
+                {
+                    "time": "6:30 p.m."
+                },
+                {
+                    "time": "7:00 p.m."
+                },
+                {
+                    "time": "7:30 p.m."
+                }
+            ]
+        }
+    },
+        "closure_schedule": [{
+                "closed": "November 2019 - December 2022"
+            }
+        ]
+    }
+]

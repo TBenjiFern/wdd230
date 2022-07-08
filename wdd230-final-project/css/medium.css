@@ -12,6 +12,10 @@
         box-shadow: 0 0 10px #33291F;
     }
 
+    .alertCollapsingBtn:hover {
+        box-shadow: 0 0 10px #33291F;
+    }
+
     .mainGrid {
         grid-template-columns: 1fr 1fr;
         gap: 10px;
@@ -34,6 +38,7 @@
     
     .templeBannerBtn:hover {
         box-shadow: 5px 5px 10px black;
+        cursor: pointer;
     }
     
     .templeImg {
@@ -87,5 +92,24 @@
     footer hr {
         margin: 20px 0;
     }
+
+    /* CSS for Temples page */
+ 
+
+    .templeCards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .templeSection:hover {
+        box-shadow: 0 0 10px #33291F;
+    }
     
+    #templeClass0 {
+        grid-column: 1/2;
+    }
+
+    #templeClass1 {
+        grid-column: 2/3;
+    }
 }

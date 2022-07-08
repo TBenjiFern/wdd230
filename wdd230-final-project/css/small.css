@@ -123,6 +123,38 @@ nav ul li a:hover {
     color: #fff;
 }
 
+.alert {
+    background-color: #E9784B;
+    margin: 5px 5px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.alertCollapsingBtn {
+    width: 50px;
+    height: 50px;
+    font-size: 2em;
+    margin: 20px 20px;
+    border-radius: 10px;
+    float: right;
+}
+
+.alert h2 {
+    text-align: center;
+    color: #fff;
+    text-shadow: 0 0 5px #33291F;
+}
+
+.alert p {
+    padding: 10px;
+    margin: 5px;
+    color: #fff;
+    text-shadow: 0 0 3px #33291F;
+}
+
+
 .mainGrid {
     display: grid;
     grid-template-columns: 1fr;
@@ -320,3 +352,126 @@ footer hr {
     width: 100%;
     border-top: 1px solid #33291F;
 }
+
+/* CSS for Temples Page */
+
+.templesGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+
+.templesGrid h1 {
+    grid-column: 1/2 ;
+}
+
+.templeSection {
+    background-color: #988B6D;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    max-width: 450px;
+    min-width: 380px;
+    border-radius: 10px;
+    max-height: 550px;
+}
+
+.templeSection h2, .templeSection h3 {
+    text-align: center;
+    color: #fff;
+    text-shadow: 0 0 5px #33291F;
+}
+
+.templeSection picture{
+    justify-content: center;
+    margin: auto;
+    flex: 1 1 auto;
+    padding: 5px;
+}
+
+.templeSection picture img {
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 10px #33291F;
+    border-radius: 5px;
+    border: 5px solid #624C40;
+}
+
+.templeSection p, .templeSection li{
+    padding: 0 20px;
+    margin: 10px 5px;
+    color: #fff;
+    text-shadow: 0 0 3px #33291F;
+}
+
+.stretchOn {
+    max-height: 100%;
+}
+
+.servicesCollection {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.servicesCollection div {
+    margin: auto;
+}
+
+.ordinanceSchedule {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.ordinanceSchedule div {
+    margin: auto;
+}
+
+.sessionSchedule {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.sessionSchedule h3 {
+    width: 100%;
+}
+
+.sessionSchedule div {
+    margin: auto;
+}
+.sessionSchedule div:nth-child(2) {
+    margin: 0 auto;
+}
+
+.sessionCollection {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.templeOrdinanceLabel{
+    font-size: 1.1em;
+}
+
+.templeSection li {
+    font-size: 1em;
+}
+
+.infoPacket {
+    display: none;
+}
+
+.infoPacketVisible {
+    display: block;
+}
+
+/* nav ul {display: none;}
+nav ul.appear {display: block; order: 1;}
+
+#collapsingBtn span:nth-child(1) {display: block;}
+#collapsingBtn span:nth-child(2) {display: none;}
+
+#collapsingBtn.open span:nth-child(1) {display: none;}
+#collapsingBtn.open span:nth-child(2) {display: block;} */

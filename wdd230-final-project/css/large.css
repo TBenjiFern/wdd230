@@ -99,4 +99,10 @@
         grid-column: 3/4;
     }
 
+    /* CSS for Temples Page */
+
+    .templeCards {
+        gap: 25px;
+    }
+
 }

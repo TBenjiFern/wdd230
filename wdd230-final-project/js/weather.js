@@ -26,12 +26,15 @@ const dayThreeTemp = document.getElementById("dayThreeTemp");
 const dayThreeHumidity = document.getElementById("dayThreeHumidity");
 
 const apiKey = "7294e7be11cf3a02c424a31759e82f74";
-const lat = "43.1";
-const lon = "141.4";
+// const lat = "43.1";
+// const lon = "141.4";
+const lat = "36.1";
+const lon = "-115.2";
 const unit = "imperial";
-const exclusions = "minutely, hourly"
-const url = `https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&units=${unit}&exclude=${exclusions}&appid=${apiKey}`
-// const url = "https://api.openweathermap.org/data/2.5/forecast?q=Rexburg&units=imperial&appid=7294e7be11cf3a02c424a31759e82f74"
+const exclusions = "minutely,hourly"
+const url = `https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&units=${unit}&exclude=${exclusions}&appid=${apiKey}`;
+// const testURL = "json/weather-call.json";
+
 
 let today = new Date();
 const yyyy = today.getFullYear();
@@ -84,9 +87,46 @@ switch (dayName) {
         break;
 }
 
+function toggleAlert() {
+    alertBox.style.display = "none";
+}
+
+const alertCollapsingBtn = document.getElementById("alertCollapsingBtn");
+alertCollapsingBtn.onclick = toggleAlert;
+
+const alertBox = document.getElementById("alert");
+const alertSender = document.getElementById("alertSender");
+const alertEvent = document.getElementById("alertEvent");
+const alertStart = document.getElementById("alertStart");
+const alertEnd = document.getElementById("alertEnd");
+const alertDescription = document.getElementById("alertDescription");
+
+// To test alerts display
+
+// fetch(testURL)
+//     .then(response => response.json())
+//     .then(data => {
+//         console.log(data);
+//         if (data["alerts"]) {
+//             alertBox.style.display = "block";
+//             alertSender.textContent = data["alerts"][0]["sender_name"];
+//             alertEvent.textContent = data["alerts"][0]["event"];
+//             const startDate = new Date(data["alerts"][0]["start"]);
+//             const endDate = new Date(data["alerts"][0]["end"]);
+//             alertStart.textContent = startDate.toString();
+//             alertEnd.textContent = endDate.toString();
+//             alertDescription.innerHTML = data["alerts"][0]["description"].replace(/\*/g, "<br>");
+//         } else {
+//             alertBox.style.display = "none";
+//         }
+//     });
+
+
 fetch(url)
     .then(response => response.json())
     .then(data => {
+        console.log(data);
+
         const iconsrcToday = `https://openweathermap.org/img/wn/${data["current"]["weather"][0]["icon"]}@2x.png`;
         todayImg.alt = `Today's weather description is ${data["current"]["weather"][0]["description"]}`;
         todayDescription.textContent = toTitleCase(data["current"]["weather"][0]["description"]);
@@ -114,6 +154,21 @@ fetch(url)
         threeDescription.textContent = toTitleCase(data["daily"][2]["weather"][0]["description"]);
         dayThreeTemp.textContent = data["daily"][2]["temp"]["day"];
         dayThreeHumidity.textContent = data["daily"][2]["humidity"];
+
+
+        if (data["alerts"]) {
+            alertBox.style.display = "block";
+            alertSender.textContent = data["alerts"][0]["sender_name"];
+            alertEvent.textContent = data["alerts"][0]["event"];
+            const startDate = new Date(data["alerts"][0]["start"]);
+            const endDate = new Date(data["alerts"][0]["end"]);
+            alertStart.textContent = startDate.toString();
+            alertEnd.textContent = endDate.toString();
+            alertDescription.innerHTML = data["alerts"][0]["description"].replace(/\*/g, "<br>");
+        } else {
+            alertBox.style.display = "none";
+        }
+
     });
 
 function toTitleCase(str) {
