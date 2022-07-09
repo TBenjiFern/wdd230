@@ -129,4 +129,72 @@
         grid-column: 1/3;
     }
 
+    .makeReservationBtn:hover {
+        box-shadow: 0 0 10px #33291F;
+        cursor: pointer;
+    }
+
+    /* CSS for Services page */
+
+    .servicesGrid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .servicesGrid h1 {
+        grid-column: 1/3;
+    }
+
+    .receptionSection {
+        grid-column: 1/2;
+        width: 100%;
+    }
+
+    .missionSection {
+        grid-column: 2/3;
+        width: 100%;
+    }
+
+    .receptionSection button:hover, .missionSection button:hover {
+        box-shadow: 0 0 10px #33291F;
+    }
+
+    .amenitiesSection, .specialSection {
+        grid-column: 1/3;
+        flex-direction: row;
+        max-height: 400px;
+    }
+
+    .specialSection {
+        max-height: 500px;
+        display: flex;
+    }
+
+    .amenitiesSection h2 {
+        border-bottom: none;
+        margin: auto;
+        width: 250px;
+        background-color: rgb(233,120,75, .5);
+        height: 100%;
+        padding: 52% 0;
+    }
+
+    .amenitiesSection ul, .specialSection ul {
+        padding: 0 10%;
+    }
+
+    .specialH2 {
+        display: flex;
+        order: 1;
+        width: 250px;
+        background-color: rgb(233,120,75, .5);
+        margin-inline-start: auto;
+    }
+
+    .specialSection h2 {
+        border-bottom: none;
+        margin: auto;
+        width: 250px;
+        padding: 52% 0;
+    }
+
 }

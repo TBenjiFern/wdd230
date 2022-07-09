@@ -99,10 +99,16 @@
         grid-column: 3/4;
     }
 
-    /* CSS for Temples Page */
+    /* CSS for Temples page */
 
     .templeCards {
         gap: 25px;
+    }
+
+    /* CSS for Services page */
+
+    .amenitiesSection, .specialSection {
+        margin: 0 70px;
     }
 
 }
