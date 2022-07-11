@@ -286,6 +286,7 @@ nav ul li a:hover {
 
 .todayWeather h2, .dayOneForecast h2, .dayTwoForecast h2, .dayThreeForecast h2 {
     text-shadow: 0 0 3px #33291F;
+    padding: 5px;
 }
 
 .todayWeather p, .dayOneForecast p, .dayTwoForecast p, .dayThreeForecast p {
@@ -903,10 +904,6 @@ form input:required:valid {
     width: 175px;
 }
 
-.suiteContactSection {
-    
-}
-
 .suiteContactSection h2 {
     color: #fff;
     text-shadow: 0 0 5px #33291F;
@@ -923,4 +920,91 @@ form input:required:valid {
     background-color: rgb(197,210,214,.8);
     text-shadow: 0 0 4px #fff;
     padding: 5px;
+}
+
+/* CSS for Contact Us page */
+
+.contactUsGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.contactUsGrid h1 {
+    text-align: center;
+}
+
+.contactAddress {
+    justify-self: center;
+    width: 80%;
+    max-width: 600px;
+    height: 400px;
+    margin: 20px 10px;
+}
+
+.contactAddress h2 {
+    text-align: center;
+}
+
+.contactAddress p {
+    text-align: center;
+}
+
+.contactAddress figure {
+    width: 100%;
+    min-height: 300px;
+    height: 70%;
+    max-height: 600px;
+    margin: 10px 0;
+}
+
+.contactAddress iframe {
+    width: 100%;
+    height: 100%;
+}
+
+/* CSS for References page */
+
+.referencesGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.referencesGrid h1 {
+    text-align: center;
+}
+
+.referencesWrapper {
+    width: 85%;
+    padding: 20px;
+    max-width: 650px;
+    min-width: 250px;
+    justify-self: center;
+    background-color: #624C40;
+    border-radius: 20px;
+    border: 2px solid #484041;
+    margin: 5px;
+}
+
+.referencesSection {
+    background-color: #988B6D;
+    border-radius: 10px;
+    border: 2px solid #33291F;
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+}
+
+.referencesSection h2 {
+    color: #fff;
+    text-shadow: 0 0 3px #33291F;
+    text-align: center;
+}
+
+.referencesSection a {
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 0 3px #33291F;
+    padding: 20px 40px;
+    font-size: 1.3em;
+    word-wrap: break-word;
 }

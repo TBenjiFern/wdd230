@@ -111,4 +111,26 @@
         margin: 0 70px;
     }
 
+    /* CSS for Contact Us page */
+
+    .contactUsGrid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .contactUsGrid h1 {
+        grid-column: 1/3;
+    }
+
+    .contactForm {
+        grid-column: 1/2;
+    }
+
+    .contactAddress {
+        grid-column: 2/3;
+    }
+
+    .contactAddress {
+        height: 800px;
+    }
+
 }

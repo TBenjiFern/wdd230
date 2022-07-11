@@ -222,4 +222,10 @@
         box-shadow: 0 0 10px #33291F;
         cursor: pointer;
     }
+
+    /* CSS for References page */
+
+    .referencesSection a:hover {
+        text-decoration: underline;
+    }
 }
