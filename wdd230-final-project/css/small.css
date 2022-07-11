@@ -244,7 +244,7 @@ nav ul li a:hover {
     text-align: left;
     margin: 20px;
     border-radius: 10px;
-    background-color: #624C40;
+    background-color: #484041;
     max-width: 450px;
     justify-self: center;
 }
@@ -258,10 +258,10 @@ nav ul li a:hover {
 .templeDescription p, .aboutUs p {
     margin: 10px;
     line-height: 1.75em;
-    background-color: rgb(152, 139, 109, .8);
+    background-color: #624C40;
     border-radius: 15px;
     padding: 10px;
-    color: #33291F;
+    color: #fff;
     /* text-shadow: 0 0 1px #fff; */
 }
 
@@ -271,7 +271,7 @@ nav ul li a:hover {
 
 .aboutUs a {
     text-decoration: underline;
-    color: #33291F;
+    color: #fff;
 }
 
 .todayWeather {
@@ -279,8 +279,8 @@ nav ul li a:hover {
 }
 
 .todayWeather, .dayOneForecast, .dayTwoForecast, .dayThreeForecast  {
-    background-color: #988B6D;
-    color: #33291F;
+    background-color: #624C40;
+    color: #fff;
     min-width: 250px;
 }
 
@@ -297,7 +297,7 @@ nav ul li a:hover {
 
 .threeDayForecast {
     display: flex;
-    background-color: #624C40;
+    background-color: #484041;
     padding: 5px;
     border-radius: 10px;
     max-width: 450px;
@@ -310,8 +310,8 @@ nav ul li a:hover {
 }
 
 .addLinksSection {
-    background-color: #624C40;
-    color: #33291F;
+    background-color: #484041;
+    color: #fff;
     width: 80%;
     min-width: 300px;
     max-width: 450px;
@@ -330,13 +330,13 @@ nav ul li a:hover {
 }
 
 .addLinksSection a {
-    color: #33291F;
+    color: #fff;
 }
 
 .addLinksSection p {
     margin: 10px;
     padding: 5px;
-    background-color: #988B6D;
+    background-color: #624C40;
     line-height: 1.75em;
     border-radius: 10px;
 }
