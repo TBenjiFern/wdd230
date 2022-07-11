@@ -286,7 +286,7 @@ nav ul li a:hover {
 
 .todayWeather h2, .dayOneForecast h2, .dayTwoForecast h2, .dayThreeForecast h2 {
     text-shadow: 0 0 3px #fff;
-    padding: 5px;
+    padding: 10px;
 }
 
 .todayWeather p, .dayOneForecast p, .dayTwoForecast p, .dayThreeForecast p {
