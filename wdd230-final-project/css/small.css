@@ -261,17 +261,17 @@ nav ul li a:hover {
     background-color: rgb(152, 139, 109, .8);
     border-radius: 15px;
     padding: 10px;
-    color: #fff;
-    text-shadow: 0 0 1px #33291F;
+    color: #33291F;
+    /* text-shadow: 0 0 1px #fff; */
 }
 
 .aboutUs a:hover {
-    text-shadow: 0 0 5px #33291F;
+    text-shadow: 0 0 5px #fff;
 }
 
 .aboutUs a {
     text-decoration: underline;
-    color: #fff;
+    color: #33291F;
 }
 
 .todayWeather {
@@ -280,17 +280,17 @@ nav ul li a:hover {
 
 .todayWeather, .dayOneForecast, .dayTwoForecast, .dayThreeForecast  {
     background-color: #988B6D;
-    color: #fff;
+    color: #33291F;
     min-width: 250px;
 }
 
 .todayWeather h2, .dayOneForecast h2, .dayTwoForecast h2, .dayThreeForecast h2 {
-    text-shadow: 0 0 3px #33291F;
+    text-shadow: 0 0 3px #fff;
     padding: 5px;
 }
 
 .todayWeather p, .dayOneForecast p, .dayTwoForecast p, .dayThreeForecast p {
-    text-shadow: 0 0 1px #33291F;
+    /* text-shadow: 0 0 1px #fff; */
     line-height: 1.2em;
     margin: 10px 0;
 }
@@ -311,7 +311,7 @@ nav ul li a:hover {
 
 .addLinksSection {
     background-color: #624C40;
-    color: #fff;
+    color: #33291F;
     width: 80%;
     min-width: 300px;
     max-width: 450px;
@@ -324,12 +324,13 @@ nav ul li a:hover {
 }
 
 .addLinksSection h2 {
+    color: #fff;
     text-shadow: 0 0 3px #33291F;
     text-align: center;
 }
 
 .addLinksSection a {
-    color: #fff;
+    color: #33291F;
 }
 
 .addLinksSection p {
