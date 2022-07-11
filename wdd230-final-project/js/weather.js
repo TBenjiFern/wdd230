@@ -125,7 +125,6 @@ const alertDescription = document.getElementById("alertDescription");
 fetch(url)
     .then(response => response.json())
     .then(data => {
-        console.log(data);
 
         const iconsrcToday = `https://openweathermap.org/img/wn/${data["current"]["weather"][0]["icon"]}@2x.png`;
         todayImg.alt = `Today's weather description is ${data["current"]["weather"][0]["description"]}`;
