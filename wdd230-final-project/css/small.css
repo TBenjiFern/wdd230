@@ -519,7 +519,7 @@ footer hr {
 }
 
 form fieldset{
-    border: 2px solid #E9784B;
+    border: 3px solid #484041;
     border-radius: 5px;
     background-color: #C5D2D6;
 }
@@ -586,11 +586,11 @@ form label.required::after {
 }
 
 form input:required {
-    border-left: 4px solid red;
+    border: 2px solid red;
 }
 
 form input:required:valid {
-    border-left: 4px solid green;
+    border: 2px solid green;
 }
 
 .roomNumber {
@@ -604,7 +604,7 @@ form input:required:valid {
 }
 
 .roomSection {
-    background-color: #988B6D;
+    background-color: #624C40;
     max-width: 400px;
     border-radius: 10px;
     border: 2px solid #33291F;
