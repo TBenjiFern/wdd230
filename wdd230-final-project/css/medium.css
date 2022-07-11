@@ -197,4 +197,29 @@
         padding: 52% 0;
     }
 
+    /* CSS for Reception page */
+
+    .receptionGrid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .weddingReceptionSection {
+        grid-column: 1/3;
+    }
+
+    /* CSS for Service Mission page */
+
+    .suiteFigure button:hover {
+        box-shadow: 0 0 10px #33291F;
+        cursor: pointer;
+    }
+
+    .suiteContactWrapper {
+        grid-column: 1/3;
+    }
+
+    .suiteContactSection button:hover {
+        box-shadow: 0 0 10px #33291F;
+        cursor: pointer;
+    }
 }

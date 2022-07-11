@@ -749,3 +749,178 @@ form input:required:valid {
     font-size: 1.2em;
     list-style-type: circle;
 }
+
+/* CSS for Reception page */
+
+.receptionGrid {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.weddingReceptionSection {
+    background-color: rgb(233,120,75, .6);
+    padding: 15px 0;
+}
+
+.weddingReceptionInnerSection {
+    width: 70%;
+    background-color: rgb(197,210,214);
+    margin: auto;
+    border: 2px solid #33291F
+}
+
+.weddingReceptionInnerSection h1 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.weddingReceptionInnerSection p {
+    padding: 10px 20px 30px 20px;
+}
+
+.cateringWrapper, .setupWrapper{
+    width: 85%;
+    padding: 20px;
+    max-width: 500px;
+    min-width: 250px;
+    justify-self: center;
+    background-color: #624C40;
+    border-radius: 20px;
+    border: 2px solid #484041;
+    margin: 5px;
+}
+
+.receptionFoodSection, .receptionSetupSection {
+    background-color: #988B6D;
+    border-radius: 10px;
+    border: 2px solid #33291F;
+    display: flex;
+    flex-direction: column;
+}
+
+.receptionFoodSection h2, .receptionSetupSection h2 {
+    text-align: center;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    color: #fff;
+    text-shadow: 0 0 4px #33291F;
+}
+
+.receptionFoodSection img, .receptionSetupSection img {
+    margin: 10px;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #33291F;
+    border: 2px solid #33291F;
+}
+
+.receptionFoodSection p, .receptionSetupSection p {
+    padding: 10px;
+    color: #fff;
+    text-shadow: 0 0 4px #33291F;
+}
+
+/* CSS for Service Mission page */
+
+.suiteWrapper {
+    width: 85%;
+    padding: 20px;
+    max-width: 500px;
+    min-width: 250px;
+    justify-self: center;
+    background-color: #624C40;
+    border-radius: 20px;
+    border: 2px solid #484041;
+    margin: 5px;
+}
+
+.juniorSuiteSection, .standardSuiteSection, .suiteContactSection {
+    background-color: #988B6D;
+    border-radius: 10px;
+    border: 2px solid #33291F;
+    display: flex;
+    flex-direction: column;
+}
+
+.juniorSuiteSection p, .standardSuiteSection p, .suiteContactSection p {
+    padding: 10px;
+    color: #fff;
+    text-shadow: 0 0 4px #33291F;
+    margin: 0;
+}
+
+.suiteFigure {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 10px;
+}
+
+.suiteFigure h2 {
+    position: absolute;
+    text-align: center;
+    margin: 0;
+    top: 50px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-shadow: 0 0 5px #33291F;
+    width: 150px;
+}
+
+.suiteFigure img {
+    margin: 10px;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #33291F;
+    border: 2px solid #33291F;
+    margin: 0;
+}
+
+.suiteFigure button {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 50px;
+    margin: auto;
+    min-width: 50px;
+    max-width: 300px;
+    width: 80%;
+    border-radius: 10px;
+    background-color: rgb(197,210,214,.8);
+    text-shadow: 0 0 4px #fff;
+    padding: 5px;
+}
+
+.standardFigure h2 {
+    width: 175px;
+}
+
+.suiteContactSection {
+    
+}
+
+.suiteContactSection h2 {
+    color: #fff;
+    text-shadow: 0 0 5px #33291F;
+    text-align: center;
+}
+
+.suiteContactSection button {
+    height: 50px;
+    margin: auto;
+    min-width: 150px;
+    max-width: 300px;
+    width: 80%;
+    border-radius: 10px;
+    background-color: rgb(197,210,214,.8);
+    text-shadow: 0 0 4px #fff;
+    padding: 5px;
+}
