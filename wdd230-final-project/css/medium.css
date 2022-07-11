@@ -105,6 +105,7 @@
         box-shadow: 0 0 10px #fff;
         color: #E9784B;
         text-shadow: 0 0 3px #33291F;
+        cursor: pointer;
     }
     
     #templeClass0 {
